@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="icon" href="./src/assets/image/logo.png">
+        <!-- meta tags -->
+        <title>كتاب شبكة الفنانين</title>
+        <meta name="title" content="Artist Network Book">
+        <meta name="description" content="Welcome to Book Me, my platform that showcases my Frontend development expertise. 
+        The site is built using modern technologies including HTML, CSS, Bootstrap, JavaScript, OOP, TypeScript, JSON, API, 
+        Vue.js, React.js, Angular, Git, and GitHub. The site features a responsive and attractive design, with optimized 
+        performance to ensure a smooth and fast user experience. Enjoy browsing the site and discover the beauty and simplicity 
+        of advanced programming.">
+        <meta name="keywords" content="HTML, CSS, JS, TS, JSON, FETCH API">
+        <meta name="author" content="Mohamed Yasser">
+        <!-- meta theme color -->
+        <meta name="theme-color" content="#000000">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <!-- custom cdnjs icon link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!-- custom css link -->
+        <link rel="stylesheet" href="./src/assets/css/styles.css">
+    </head>
+    <body>
+        <!-- #OVERFLOW -->
+        <div class="overflow" data-overflow></div>
+
+        <!-- #LOAD START -->
+        <div class="load-start display-large" data-load-start>
+            <i class="fa-solid fa-code"></i>
+        </div>
+
+        <!-- #HEADER -->
+        <header class="header">
+            <div class="open-aside">
+                <button class="btn-header label-large" data-open-aside><i class="fa-solid fa-chart-bar"></i></button>
+            </div>
+
+            <a href="index.html" class="logo">
+                <img src="./src/assets/image/logo.png" alt="logo" loading="lazy" class="img-logo img-cover">
+            </a>
+
+            <div class="icons">
+                <button class="btn-header sun label-large" data-sun><i class="fa-regular fa-sun"></i></button>
+                <button class="btn-header moon label-large" data-moon><i class="fa-regular fa-moon"></i></button>
+                
+                <a href="index.html" class="btn-header pen label-large">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- #ASIDE -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-title">
+                <a href="index.html" class="logo label-large">
+                    <i class="fa-solid fa-earth-americas"></i> شبكة الفنانين
+                </a>
+
+                <button class="btn-header bar label-large" data-close-aside><i class="fa-solid fa-chart-bar"></i></button>
+
+                <a href="index.html" class="btn-header label-large">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </a>
+            </div>
+
+            <p class="text-content label-small"><i class="fa-solid fa-laptop-code"></i> اللغات</p>
+            <div class="sidebar-list" data-sidebar-list-lang></div>
+
+            <p class="text-content label-small"><i class="fa-solid fa-handshake-angle"></i> الادوات المساعدة</p>
+            <div class="sidebar-list" data-sidebar-list-help></div>
+        </aside>
+
+        <!-- search page -->
+        <div class="form container">
+            <div class="input-box">
+                <input type="text" placeholder="بحث" class="search label-medium" data-search>
+                <button class="btn-search label-large" data-btn-search><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+        <!-- #MAIN -->
+        <main class="main container">
+            <div class="main-list" data-main-list></div>
+
+            <div class="input-box" data-input-box>
+                <input type="text" placeholder="page" value="1" class="input-page label-medium" data-input-page>
+                <p class="label-medium" data-number-page></p>
+            </div>
+        </main>
+
+        <!-- custom js link -->
+        <script src="./src/home.js"></script>
+    </body>
+</html>
