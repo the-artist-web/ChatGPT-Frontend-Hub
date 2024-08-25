@@ -1585,6 +1585,12 @@
           "titleCard": "width: calc(100% - 16rem);",
           "description": "تستخدم في تقسيم الشاشه بين ال aside و ال body second",
           "lang": "<i class='fa-solid fa-circle circle-purple'></i> CSS"
+        },
+        {
+          "image": "./src/assets/image/css ( 3 ).png",
+          "titleCard": ".home .slides {<br> overflow: scroll;<br> scroll-snap-type: x mandatory;<br> scroll-behavior: smooth;<br> } .home .slides .box-image {<br> flex: 0 0 100%;<br> scroll-snap-align: start;<br> }",
+          "description": "تقوم بتقسيم كل صوره في overflow الي 100%",
+          "lang": "<i class='fa-solid fa-circle circle-purple'></i> CSS"
         }
       ]
     },
@@ -3110,6 +3116,12 @@
             "image": "./src/assets/image/javaScript ( 5 ).png",
             "titleCard": "let cardSave: any = JSON.parse(localStorage.likedPosts);<br> const data: any = await fetchDataSavedNovel();<br> data.forEach((ele: any) => {<br> if (cardSave.length === 0) {<br> saved_card.innerHTML = `<p class='message-info'>There are no preserved stories.</p>`;<br> } else {<br> if (cardSave.includes(ele.title)) {<br> saved_card.innerHTML += `<br> &lt;a href=[display-novel.html?noval=${ele.title}&language=${ele.language}[ class=[card[><br> &lt;figure><br> &lt;img src=[./src/assets/${ele.imageLink}[ alt=[img-name[ class=[img-card img-cover[><br> &lt;/figure><br> &lt;h1 class=[title-card[>${ele.title}</h1><br> &lt;/a><br> `;<br> };<br> };<br> });",
             "description": "تستخدم في اخذ العناصؤ من localStorage لعرضها في صفحه المفضله",
+            "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
+          },
+          {
+            "image": "./src/assets/image/javaScript ( 5 ).png",
+            "titleCard": "next.addEventListener('click', () => { slides.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); });<br> prev.addEventListener('click', () => { slides.scrollBy({ left: scrollAmount, behavior: 'smooth' }); });",
+            "description": "نقوم بتحريك ال overflow الي اليمين بي next و اليسار ب prev",
             "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
           }
       ]
