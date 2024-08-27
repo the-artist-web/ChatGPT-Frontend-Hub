@@ -3123,6 +3123,12 @@
             "titleCard": "next.addEventListener('click', () => { slides.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); });<br> prev.addEventListener('click', () => { slides.scrollBy({ left: scrollAmount, behavior: 'smooth' }); });",
             "description": "نقوم بتحريك ال overflow الي اليمين بي next و اليسار ب prev",
             "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
+          },
+          {
+            "image": "./src/assets/image/javaScript ( 5 ).png",
+            "titleCard": "if (localStorage.getItem(`saved-${ele.id}`) === 'true') {<br> btnSave.classList.add('active');<br> btnUnsved.classList.add('active');<br> };<br><br> btnSave.addEventListener('click', () => {<br> btnSave.classList.add('active');<br> btnUnsved.classList.add('active');<br> localStorage.setItem(`saved-${ele.id}`, 'true');<br> });<br><br> btnUnsved.addEventListener('click', () => {<br> btnSave.classList.remove('active');<br> btnUnsved.classList.remove('active');<br> localStorage.setItem(`saved-${ele.id}`, 'false');<br> });<br><br> const buttons = document.querySelectorAll('[data-save], [data-unsaved]');<br> buttons.forEach((button) => {<br> const postId = button.getAttribute('data-save') || button.getAttribute('data-unsaved');<br><br> const btnSave = document.querySelector(`[data-save='${postId}']`);<br> const btnUnsave = document.querySelector(`[data-unsaved='${postId}']`);<br><br> if (btnSave && btnUnsave && localStorage.getItem(`saved-${postId}`) === 'true') {<br> btnSave.classList.add('active');<br> btnUnsave.classList.add('active');<br> };<br> });",
+            "description": "تقوم بتغيير شكل الزرار حتا بعد تحميل الصفحه لكل عنصر علي انفراد",
+            "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
           }
       ]
     },
