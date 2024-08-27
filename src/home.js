@@ -220,6 +220,10 @@ function getMainList() {
                         return [2 /*return*/];
                     }
                     ;
+                    if (langParam !== search.value) {
+                        main_list.innerHTML = "<p class=\"massage-error label-large\">\u0647\u0630\u0629 \u0627\u0644\u0635\u0641\u062D\u0647 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629</p>";
+                    }
+                    ;
                     allCards = filteredItems.flatMap(function (ele) { return ele.cards; });
                     currentPage = parseInt(urlParams.get("page") || "1", 10);
                     totalCards = allCards.length;
@@ -232,6 +236,10 @@ function getMainList() {
                     pageCards.map(function (card) {
                         main_list.innerHTML += "\n        <div class=\"card-code\" data-card-code>\n            <h2 class=\"code-text label-small\" data-code-text>".concat(card.titleCard, "</h2>\n            <p class=\"text-content label-small\">").concat(card.description, "</p>\n        </div>\n        ");
                     });
+                    if (currentPage > totalPages) {
+                        main_list.innerHTML = "<p class=\"massage-error label-large\">\u0647\u0630\u0629 \u0627\u0644\u0635\u0641\u062D\u0647 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629</p>";
+                    }
+                    ;
                     card_code = document.querySelectorAll("[data-card-code]");
                     code_text = document.querySelectorAll("[data-code-text]");
                     _loop_1 = function (i) {

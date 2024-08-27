@@ -179,6 +179,8 @@ async function getMainList() {
         input_box.style.display = "none"; 
         return;
     };
+    
+    if (langParam !== search.value) { main_list.innerHTML = `<p class="massage-error label-large">هذة الصفحه غير موجودة</p>`; };
         
     // get cards lsit
     const allCards = filteredItems.flatMap((ele: any) => ele.cards);
@@ -201,6 +203,8 @@ async function getMainList() {
         </div>
         `;
     });
+
+    if (currentPage > totalPages) { main_list.innerHTML = `<p class="massage-error label-large">هذة الصفحه غير موجودة</p>`; };
 
     // search in cards
     const card_code = document.querySelectorAll("[data-card-code]") as NodeListOf<HTMLDivElement>;
