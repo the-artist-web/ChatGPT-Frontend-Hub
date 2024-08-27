@@ -200,7 +200,7 @@ var main_list = document.querySelector("[data-main-list]");
 var input_page = document.querySelector("[data-input-page]");
 var number_page = document.querySelector("[data-number-page]");
 var input_box = document.querySelector("[data-input-box]");
-var itemsPerPage = 20;
+var itemsPerPage = 30;
 function getMainList() {
     return __awaiter(this, void 0, void 0, function () {
         var data, urlParams, langParam, lang, filteredItems, allCards, currentPage, totalCards, startIndex, endIndex, pageCards, totalPages, card_code, code_text, _loop_1, i;
@@ -221,7 +221,8 @@ function getMainList() {
                     }
                     ;
                     if (langParam !== search.value) {
-                        main_list.innerHTML = "<p class=\"massage-error label-large\">\u0647\u0630\u0629 \u0627\u0644\u0635\u0641\u062D\u0647 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629</p>";
+                        main_list.innerHTML = "<p class=\"massage-error label-large\">\u0647\u0630\u0629 \u0627\u0644\u0635\u0641\u062D\u0629 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629</p>";
+                        document.body.style.overflow = "hidden";
                     }
                     ;
                     allCards = filteredItems.flatMap(function (ele) { return ele.cards; });
@@ -237,7 +238,8 @@ function getMainList() {
                         main_list.innerHTML += "\n        <div class=\"card-code\" data-card-code>\n            <h2 class=\"code-text label-small\" data-code-text>".concat(card.titleCard, "</h2>\n            <p class=\"text-content label-small\">").concat(card.description, "</p>\n        </div>\n        ");
                     });
                     if (currentPage > totalPages) {
-                        main_list.innerHTML = "<p class=\"massage-error label-large\">\u0647\u0630\u0629 \u0627\u0644\u0635\u0641\u062D\u0647 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629</p>";
+                        main_list.innerHTML = "<p class=\"massage-error label-large\">\u0647\u0630\u0629 \u0627\u0644\u0635\u0641\u062D\u0629 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629</p>";
+                        document.body.style.overflow = "hidden";
                     }
                     ;
                     card_code = document.querySelectorAll("[data-card-code]");

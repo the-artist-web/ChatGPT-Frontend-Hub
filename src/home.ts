@@ -152,7 +152,7 @@ const main_list = document.querySelector("[data-main-list]") as HTMLDivElement;
 const input_page = document.querySelector("[data-input-page]") as HTMLInputElement;
 const number_page = document.querySelector("[data-number-page]") as HTMLElement;
 const input_box = document.querySelector("[data-input-box]") as HTMLDivElement;
-let itemsPerPage: number = 20;
+let itemsPerPage: number = 30;
 
 async function getMainList() {
     const data: any = await fetchData();
@@ -180,7 +180,10 @@ async function getMainList() {
         return;
     };
     
-    if (langParam !== search.value) { main_list.innerHTML = `<p class="massage-error label-large">هذة الصفحه غير موجودة</p>`; };
+    if (langParam !== search.value) { 
+        main_list.innerHTML = `<p class="massage-error label-large">هذة الصفحة غير موجودة</p>`; 
+        document.body.style.overflow = "hidden";
+    };
         
     // get cards lsit
     const allCards = filteredItems.flatMap((ele: any) => ele.cards);
@@ -204,7 +207,10 @@ async function getMainList() {
         `;
     });
 
-    if (currentPage > totalPages) { main_list.innerHTML = `<p class="massage-error label-large">هذة الصفحه غير موجودة</p>`; };
+    if (currentPage > totalPages) { 
+        main_list.innerHTML = `<p class="massage-error label-large">هذة الصفحة غير موجودة</p>`; 
+        document.body.style.overflow = "hidden";
+    };
 
     // search in cards
     const card_code = document.querySelectorAll("[data-card-code]") as NodeListOf<HTMLDivElement>;

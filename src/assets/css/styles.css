@@ -476,7 +476,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: bolder; }
   padding-inline: 16px;
 }
 
-.header .logo { max-width: 50px; }
+.header .logo { 
+  filter: drop-shadow(2px 2px 2px black);
+  max-width: 50px; 
+}
 
 .header .icons {
   display: flex;
@@ -564,7 +567,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: bolder; }
   transition: .4s;
 }
 
-.sidebar .sidebar-list .sidebar-link .img-sidebar { max-width: 25px; }
+.sidebar .sidebar-list .sidebar-link .img-sidebar { 
+  max-width: 25px; 
+  filter: drop-shadow(2px 2px 2px black);
+}
 
 /*-------------------------------------------*\
   #INPUT OPAGE
@@ -600,7 +606,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: bolder; }
   display: grid;
   place-items: center;
   width: 100%;
-  height: calc(100vh - 260px);
+  height: calc(100vh - 175px);
 }
 
 /**
