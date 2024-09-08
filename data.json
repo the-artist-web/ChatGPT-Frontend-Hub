@@ -3658,44 +3658,44 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "npm run build",
+          "description": "تقوم باضافه العناصر الجديده الي المتصفح",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "react.jsx",
+          "description": "هوا ده اسم صفحه react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "className",
+          "description": "في react لازم تنكتب className مش class بس",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "{  }",
+          "description": "هذه الافواس تستخدم في احضار ljydv legh و عرضه في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "&ltinput /> & &lthr /> & &ltlink /> & &ltbr />",
+          "description": "في react لازم نقفل الحجات الي ملهاش شكل تاني بي /",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "const elementName = () => {<br> return (<br><br>);<br> };<br> ----------------- <br> export default elementName",
+          "description": "هكذا يتم عمل element في react.js و export default بستخدمها علشان استدعي ال elementName في ال app.js لان js لغه مستقله لازم اعمل ليها export و استدعيها بي import",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "import elementName from './elementName'; <br><br> &ltelementName />",
+          "description": "هنا بيتماستدعاء ال elementName في صفحه ال app.js و ال &ltelementName /> دي كذا بضيفها في الصفحه",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
