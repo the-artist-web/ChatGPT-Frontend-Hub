@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: bolder; }
   display: flex;
   align-items: center;
   padding: 10px 16px;
-  text-wrap: nowrap;
+  text-wrap: wrap;
   overflow: scroll;
 }
 
