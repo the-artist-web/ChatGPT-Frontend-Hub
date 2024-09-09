@@ -3664,6 +3664,12 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "npx create-react-app my-app --template typescript",
+          "description": "بيخلي الملف معمول بي type script مش java script",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "react.jsx",
           "description": "هوا ده اسم صفحه react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
@@ -3696,6 +3702,66 @@
           "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "import elementName from './elementName'; <br><br> &ltelementName />",
           "description": "هنا بيتماستدعاء ال elementName في صفحه ال app.js و ال &ltelementName /> دي كذا بضيفها في الصفحه",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "function in react.js",
+          "description": "ال function بتتعمل في react.js برا ال function بتاعت ال element",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "onclick={  }",
+          "description": "ال onclick هنا بستخدمه في اني استدعي function",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "Project structuring react.js",
+          "description": "src/<br> assets/<br> images/<br> fonts/<br> components/<br> Navbar/<br> Navbar.jsx<br> Navbar.css<br> Footer/<br> Footer.jsx<br> Footer.css<br> pages/<br> Home/<br> Home.jsx<br> Home.css<br> About/<br> About.jsx<br> About.css<br> context/<br> AuthContext.js<br> services/<br> api.js<br> styles/<br> global.css<br> utils/<br> formatDate.js<br> index.js", 
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "",
+          "description": "",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "",
+          "description": "",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "",
+          "description": "",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "",
+          "description": "",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "",
+          "description": "",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "",
+          "description": "",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "",
+          "description": "",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
