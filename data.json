@@ -3647,12 +3647,18 @@
         {
           "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "npx create-react-app name-folder",
-          "description": "تقوم بعمل ملف لي مشروع react.js",
+          "description": "تقوم بعمل ملف لي مشروع react.js للمشاريع الصغيره او المتوسطه",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "npm start",
+          "titleCard": "npx create-next-app",
+          "description": "لو كتب npx create-next-app بس هيبدا يسالني ايه الي هحتاجه في المشروع للمشاريع الكبيره فقط",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "npm run dev",
           "description": "تقوم بفتح موقع للمشروع ميكانيكيا",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3671,7 +3677,13 @@
         {
           "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "react.jsx",
-          "description": "هوا ده اسم صفحه react.js",
+          "description": "هوا ده اسم صفحه react.js لل js",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "react.tsx",
+          "description": "هوا ده اسم صفحه react.js لل ts",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
@@ -3694,8 +3706,14 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "const elementName = () => {<br> return (<br><br>);<br> };<br> ----------------- <br> export default elementName",
+          "titleCard": "function elementName() {<br> return (<br><br>);<br> };<br> ----------------- <br> export default elementName",
           "description": "هكذا يتم عمل element في react.js و export default بستخدمها علشان استدعي ال elementName في ال app.js لان js لغه مستقله لازم اعمل ليها export و استدعيها بي import",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "&lt;> &lt/>;",
+          "description": "في كل function لازم يكون في عنصر اب واحد بس فا لو عاوز اعمل عنصر اب بكتب كدا داخل return و لو هكتب حاجه واحده بي زي الزرار مثلا فا عادي مكتبهاش",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
@@ -3712,68 +3730,68 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "onclick={  }",
+          "titleCard": "onClick={  }",
           "description": "ال onclick هنا بستخدمه في اني استدعي function",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "Project structuring react.js",
-          "description": "src/<br> assets/<br> images/<br> fonts/<br> components/<br> Navbar/<br> Navbar.jsx<br> Navbar.css<br> Footer/<br> Footer.jsx<br> Footer.css<br> pages/<br> Home/<br> Home.jsx<br> Home.css<br> About/<br> About.jsx<br> About.css<br> context/<br> AuthContext.js<br> services/<br> api.js<br> styles/<br> global.css<br> utils/<br> formatDate.js<br> index.js", 
+          "titleCard": "src/<br> assets/<br> images/<br> fonts/<br> components/<br> Navbar/<br> Navbar.jsx<br> Navbar.css<br> Footer/<br> Footer.jsx<br> Footer.css<br> pages/<br> Home/<br> Home.jsx<br> Home.css<br> About/<br> About.jsx<br> About.css<br> context/<br> AuthContext.js<br> services/<br> api.js<br> styles/<br> global.css<br> utils/<br> formatDate.js<br> index.js",
+          "description": "Project structuring react.js", 
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "function header(props) {<br> return (<br> &lt;header className='header'><br>{ props.text }<br> &lt;header> <br><br> &lt;header text='hello world'>}",
+          "description": "كدا اقدر اعمل function بدون قيمه و اقدر اديله القسمه اما اجي استدعيه زي كدا &lt;header text='hello world'> و لو حطيت علامه ؟ عند props.؟text مش هيكون شرط تستخدمه",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "let noneHeader = true;<br> { noneHeader && &lt;Header /> }",
+          "description": "هنا دي عمليه مشهوره جدا في react بقوله لو noneHeader == true اعرض ال &lt;Header />",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "globals.css",
+          "description": "الملف ده بتكتب فيه اساسيات css و كمان بتحط فيه الالوان و هكذا و هوا بينزل مع ملف react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "import link from 'next/link';<br> &lt;link href='/about>go to about&lt;/link>'",
+          "description": "هنا بستخدم ال link بدل a كوندشن في react",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "'use client';",
+          "description": "دي بتفرق مبين ال element و function",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "const function = () => {<br>};",
+          "description": "دي ال function الي بستخدمها اعمل بيها onClick او هكذا",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "import { useState } from 'react'; <br> const [counter, setCounter] = useState(0);",
+          "description": "هنا ال useState بيعمل render للصفحه كلها في حاله اني بعمل زرار و عاوزازود ال counter شرطه لازم يكون في const و معمول في array و اكون مديله اسم و اما اجي استخدمه بستخدم الاسم الي هوا setCounter و طبعا بحط القيمه الي هوا محتاجها اذا كانت string او number و بيستخدم كدا setCounter(counter + 1); مثلا",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "import { useState } from 'react'; <br> useEffect(() => {  });",
+          "description": "هنا بستخدمها في حاله اني عاوز اشغل function من غير onClick او هكذا فا هنا كل اما اعمل render للصفحه هيقوم مشغلها انها لو عاوزها تشتغل مع اول render بس بعمل كدا useEffect(() => {  }, []);",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "",
-          "description": "",
+          "titleCard": "import { useRef } from 'react'; <br> useRef();",
+          "description": "بتستخدم في input في اني اجيب منها ال value زي كدا &lt;input ref={} />  و جوا ال ref اقدر احط ال function الي انا عاملها بتطلع ال value",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
