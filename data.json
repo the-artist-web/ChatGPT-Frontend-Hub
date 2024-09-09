@@ -3706,6 +3706,18 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "import Home from './home';",
+          "description": "في react لازم يكون اول حرف capital",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "../../",
+          "description": "تستخدم في الخروج من ملفن اثنين",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "{  }",
           "description": "هذه الافواس تستخدم في احضار ljydv legh و عرضه في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
