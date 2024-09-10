@@ -3820,7 +3820,7 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';<br> function App() {<br> return (<br> &lt;Router><br> &lt;nav><br> &lt;ul><br> &lt;li><br> &lt;Link to='/'>Home&lt;/Link><br> &lt;/li><br> &lt;li><br> &lt;Link to='/about'>About&lt;/Link><br> &lt;/li><br> &lt;/ul><br> &lt;/nav><br> <br> &lt;Routes><br> &lt;Route path='/' element={<Home />} /><br> &lt;Route path='/about' element={<About />} /><br> &lt;/Routes><br> &lt;/Router><br> );<br> }<br> export default App;",
+          "titleCard": "import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';<br> function App() {<br> return (<br> &lt;Router><br> &lt;nav><br> &lt;ul><br> &lt;li><br> &lt;Link to='/'>Home&lt;/Link><br> &lt;/li><br> &lt;li><br> &lt;Link to='/about'>About&lt;/Link><br> &lt;/li><br> &lt;/ul><br> &lt;/nav><br> <br> &lt;Routes><br> &lt;Route path='/' element={<Home />} /><br> &lt;Route path='/about' element={<About />} /><br> &lt;/Routes><br> &lt;/Router><br> );<br> }<br> export default App;<br><br> &lt;Link to='/'>&lt;/Link>",
           "description": "دي طريقه التنقل في rourter في ملف npx create-react-app و ليس ملف npx create-next-app",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
