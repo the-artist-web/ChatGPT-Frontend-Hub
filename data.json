@@ -3823,6 +3823,24 @@
           "titleCard": "import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';<br> function App() {<br> return (<br> &lt;Router><br> &lt;nav><br> &lt;ul><br> &lt;li><br> &lt;Link to='/'>Home&lt;/Link><br> &lt;/li><br> &lt;li><br> &lt;Link to='/about'>About&lt;/Link><br> &lt;/li><br> &lt;/ul><br> &lt;/nav><br> <br> &lt;Routes><br> &lt;Route path='/' element={<Home />} /><br> &lt;Route path='/about' element={<About />} /><br> &lt;/Routes><br> &lt;/Router><br> );<br> }<br> export default App;<br><br> &lt;Link to='/'>&lt;/Link>",
           "description": "دي طريقه التنقل في rourter في ملف npx create-react-app و ليس ملف npx create-next-app",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "current",
+          "description": "دي بستخدمها بقوله هاتلي العنصر الي انتا واقف عليه باستخدام ref",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "import { useEffect, useRef } from 'react';<br> import { useNavigate } from 'react-router-dom';<br><br> const searchHeaderRef = useRef<HTMLInputElement>(null);<br> const navigate = useNavigate();<br><br> const getSearchPage = (e: React.KeyboardEvent) => {<br> if (e.key === 'Enter' && searchHeaderRef.current?.value.toLowerCase()) {<br> navigate(`/search?search=${searchHeaderRef.current.value.toLowerCase()}`); <br> };<br> };<br><br> &lt;input<br> type='text'<br> placeholder='Search in worlds'<br> className='search-header label-large'<br> ref={searchHeaderRef}<br> onKeyDown={getSearchPage}<br> data-search-header<br> />",
+          "description": "طريفه التنقل بين الصفحه في حاله وضع value في url",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "return () => {<br> search_header.addEventListener('focus', openSearchBox);<br> overflow.removeEventListener('click', closeSearchBoxOverflow);<br> close_search_box.removeEventListener('click', closeSearchBox);<br> };",
+          "description": "عندما تضيف مستمعين للأحداث أو تستخدم تأثيرات أخرى في useEffect, من المهم تنظيفها عند عدم الحاجة إليها بعد الآن. خلاف ذلك، قد تبقى الأحداث أو التأثيرات نشطة حتى بعد إزالة المكون من الشاشة، مما قد يؤدي إلى مشاكل في الأداء أو الأخطاء.",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
     },
