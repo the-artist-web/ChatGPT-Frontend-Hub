@@ -3832,7 +3832,7 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { useEffect, useRef } from 'react';<br> import { useNavigate } from 'react-router-dom';<br><br> const searchHeaderRef = useRef<HTMLInputElement>(null);<br> const navigate = useNavigate();<br><br> const getSearchPage = (e: React.KeyboardEvent) => {<br> if (e.key === 'Enter' && searchHeaderRef.current?.value.toLowerCase()) {<br> navigate(`/search?search=${searchHeaderRef.current.value.toLowerCase()}`); <br> };<br> };<br><br> &lt;input<br> type='text'<br> placeholder='Search in worlds'<br> className='search-header label-large'<br> ref={searchHeaderRef}<br> onKeyDown={getSearchPage}<br> data-search-header<br> />",
+          "titleCard": "import { useNavigate } from 'react-router-dom';<br><br> const navigate = useNavigate();<br><br> const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {<br> if (e.key === 'Enter' && searchTerm.trim()) {<br> navigate(/search-world?search=${searchTerm.toLowerCase().trim()});<br> };<br> };<br><br> &lt;input<br> type='text'<br> onKeyDown={handleKeyDown}<br> />",
           "description": "طريفه التنقل بين الصفحه في حاله وضع value في url",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3846,6 +3846,12 @@
           "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "React.createElement(<br> Link,<br> {<br> key: index,<br> to: `/display-world?world=${country.world}&region=${country.region}`,<br> className: 'card-searchbar'<br> },<br> React.createElement('img', {<br> src: country.flagUrl,<br> alt: country.countryName,<br> loading: 'lazy',<br> className: 'img-card img-cover'<br> }),<br> React.createElement(<br> 'div',<br> { className: 'card-body' },<br> React.createElement('h1', { className: 'name label-large' }, country.countryName),<br> React.createElement(<br> 'p',<br> { className: 'text-content label-small' },<br> `${country.countryAltName} - ${country.capital} - ${country.continent}`<br> )<br> )<br> );",
           "description": "طريقه عمل createElement في react.js",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "import { useEffect, useState } from 'react';<br><br> const [data, setData] = useState<DataType[]>([]);<br><br> useEffect(() => {<br> const fetchData = async () => {<br> try {<br> const response = await fetch('/data.json');<br> const result = await response.json();<br> setData(result);<br> } catch (error) {<br> console.error('Error Fetch Data', error);<br> };<br> };<br><br> fetchData();<br> }, []);",
+          "description": "طريقه استدعاء ال api في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
