@@ -3841,6 +3841,12 @@
           "titleCard": "return () => {<br> search_header.addEventListener('focus', openSearchBox);<br> overflow.removeEventListener('click', closeSearchBoxOverflow);<br> close_search_box.removeEventListener('click', closeSearchBox);<br> };",
           "description": "عندما تضيف مستمعين للأحداث أو تستخدم تأثيرات أخرى في useEffect, من المهم تنظيفها عند عدم الحاجة إليها بعد الآن. خلاف ذلك، قد تبقى الأحداث أو التأثيرات نشطة حتى بعد إزالة المكون من الشاشة، مما قد يؤدي إلى مشاكل في الأداء أو الأخطاء.",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "React.createElement(<br> Link,<br> {<br> key: index,<br> to: `/display-world?world=${country.world}&region=${country.region}`,<br> className: 'card-searchbar'<br> },<br> React.createElement('img', {<br> src: country.flagUrl,<br> alt: country.countryName,<br> loading: 'lazy',<br> className: 'img-card img-cover'<br> }),<br> React.createElement(<br> 'div',<br> { className: 'card-body' },<br> React.createElement('h1', { className: 'name label-large' }, country.countryName),<br> React.createElement(<br> 'p',<br> { className: 'text-content label-small' },<br> `${country.countryAltName} - ${country.capital} - ${country.continent}`<br> )<br> )<br> );",
+          "description": "طريقه عمل createElement في react.js",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
     },
