@@ -3853,6 +3853,12 @@
           "titleCard": "import { useEffect, useState } from 'react';<br><br> const [data, setData] = useState<DataType[]>([]);<br><br> useEffect(() => {<br> const fetchData = async () => {<br> try {<br> const response = await fetch('/data.json');<br> const result = await response.json();<br> setData(result);<br> } catch (error) {<br> console.error('Error Fetch Data', error);<br> };<br> };<br><br> fetchData();<br> }, []);",
           "description": "طريقه استدعاء ال api في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "import { NavLink } from 'react-router-dom'; &lt;NavLink  to='/'  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'} > &lt;i className='fa-solid fa-house'>&lt;/i> &lt;/NavLink> &lt;NavLink  to='/search-world'  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'} > &lt;i className='fa-solid fa-magnifying-glass'>&lt;/i> &lt;/NavLink> &lt;NavLink  to='/all-world'  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'} > &lt;i className='fa-solid fa-border-all'>&lt;/i> &lt;/NavLink> &lt;NavLink  to='/saved-world'  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'} > &lt;i className='fa-solid fa-bookmark'>&lt;/i> &lt;/NavLink>",
+          "description": "يقوم بوضع active اللينك الي موجدود في header علي حسب الصفحه الي موجود بيها",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
     },
