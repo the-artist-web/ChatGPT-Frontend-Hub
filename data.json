@@ -1588,7 +1588,7 @@
         },
         {
           "image": "./src/assets/image/css ( 3 ).png",
-          "titleCard": ".home .slides {<br> overflow: scroll;<br> scroll-snap-type: x mandatory;<br> scroll-behavior: smooth;<br> } .home .slides .box-image {<br> flex: 0 0 100%;<br> scroll-snap-align: start;<br> }",
+          "titleCard": ".home .slides {<br> overflow: scroll;<br> scroll-snap-type: x mandatory;<br> scroll-behavior: smooth;<br> }<br> .home .slides .box-image {<br> flex: 0 0 100%;<br> scroll-snap-align: start;<br> }",
           "description": "تقوم بتقسيم كل صوره في overflow الي 100%",
           "lang": "<i class='fa-solid fa-circle circle-purple'></i> CSS"
         }
@@ -3856,8 +3856,20 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "&lt;div className='searchbar' data-searchbar><br> {filteredData.map((ele) => (<br> &lt;Link to={`/display-world?world=${ele.name}&region=${ele.region}`} className='card-searchbar' key={ele.name}><br> &lt;<img src={ele.flag} alt={ele.name} loading='lazy' className='img-card img-cover' /><br> &lt;div className='card-body'><br> &lt;h1 className='name label-large'>{ele.name}&lt;/h1><br> &lt;p className='text-content label-small'>{`${ele.nativeName} - ${ele.capital} - ${ele.region}`}&lt;/p><br> &lt;/div><br> &lt;/Link><br> ))}<br> &lt;/div>",
+          "description": "طريقه عرض العناصر في react",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "import { NavLink } from 'react-router-dom';<br> &lt;NavLink<br>  to='/'<br> className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-house'>&lt;/i><br> &lt;/NavLink><br> &lt;NavLink<br>  to='/search-world'<br>  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-magnifying-glass'>&lt;/i><br> &lt;/NavLink><br> &lt;NavLink<br>  to='/all-world'<br>  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-border-all'>&lt;/i><br> &lt;/NavLink><br> &lt;NavLink<br>  to='/saved-world'<br>  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-bookmark'>&lt;/i><br> &lt;/NavLink>",
           "description": "يقوم بوضع active اللينك الي موجدود في header علي حسب الصفحه الي موجود بيها",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "const saveRefs = useRef<HTMLElement[]>([]);<br> const unsaveRefs = useRef<HTMLElement[]>([]);<br><br> useEffect(() => {<br> const likedWorlds = JSON.parse(localStorage.getItem('likeWorld') || '[]');<br> saveRefs.current.forEach((saveButton, index) => {<br const unsaveButton = unsaveRefs.current[index];<br if (!saveButton || !unsaveButton) return;<br> const likeWorld = data[index]?.name;<br> if (!likeWorld) return;<br> if (likedWorlds.includes(likeWorld)) {<br> saveButton.classList.add('active');<br> unsaveButton.classList.add('active');<br> };<br> saveButton.addEventListener('click', () => {<br> saveWorld(likeWorld);<br> saveButton.classList.add('active');<br> unsaveButton.classList.add('active');<br> });<br> unsaveButton.addEventListener('click', () => {<br> unsavedWorld(likeWorld);<br> saveButton.classList.remove('active');<br> unsaveButton.classList.remove('active');<br> });<br> });<br><br> return () => {<br> saveRefs.current.forEach((saveButton, index) => {<br> const unsaveButton = unsaveRefs.current[index];<br> if (!saveButton || !unsaveButton) return;<br> saveButton.removeEventListener('click', () => {});<br> unsaveButton.removeEventListener('click', () => {});<br> });<br> };<br> }, [data]);<br><br> &lt;button<br> ref={el => saveRefs.current[index] = el!}<br> className='btn-saved save label-small' <br> data-save<br> ><br> &lt;i className='fa-regular fa-bookmark'>&lt;/i><br> &lt;/button><br><br> &lt;button<br> ref={el => unsaveRefs.current[index] = el!}<br> className='btn-saved unsaved label-small' <br> data-unsaved<br> ><br> &lt;i className='fa-solid fa-bookmark'>&lt;/i><br> &lt;/button><br>",
+          "description": "طريقه حفظ العناصر في المفضله في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
