@@ -3877,6 +3877,12 @@
           "titleCard": "function CardSkeleton() { <br> return &lt;div className='card-skeleton'>&lt;/div>; <br> };<br><br> const [loading, setLoading] = useState(true);<br> useEffect(() => {<br> const fetchData = async () => {<br> try {<br> const response = await fetch('/data.json');<br> const data = await response.json();<br> setData(shuffleArray(data.slice(30, 60)));<br> setLoading(false);<br> } catch (error) {<br> console.error('Error Fetch Data In Home List', error);<br> }<br> setLoading(false);<br> };<br><br> fetchData();<br> // هنا توضع ال setLoading لكي يحذف ال Skeleton بعد تحميل العناصر<br> }, []);<br><br> {loading ? (<br> Array(4).fill(0).map((_, index) => <CardSkeleton key={index} />)<br> ) : (<br> data.map((ele, index) => (<br> // هنا توضع العناصر<br> ))<br> )}",
           "description": "طريقه وضع skeleton في react.js قبل تحميل العناصر",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "useEffect(() => {<br> document.title = 'العنوان الجديد';<br> }, []);",
+          "description": "طريقه تغيير عنوان ال title في react.js",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
     },
