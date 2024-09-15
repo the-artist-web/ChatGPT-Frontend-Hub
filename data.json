@@ -3883,6 +3883,12 @@
           "titleCard": "useEffect(() => {<br> document.title = 'العنوان الجديد';<br> }, []);",
           "description": "طريقه تغيير عنوان ال title في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "&lt;p><br> &lt;span>timezones:&lt;/span> {ele.timezones.map((timezone, index) => (<br> &lt;span key={index}>{timezone}{index < ele.timezones.length - 1 ? ', ' : ''}&lt;/span><br> ))}<br> &lt;/p>",
+          "description": "طريقه احضار عنصر array في react.js",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
     },
