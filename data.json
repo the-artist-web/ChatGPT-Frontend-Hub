@@ -3646,8 +3646,14 @@
       "cards": [
         {
           "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "npm create vite@latest name-folder<br> cd name-folder<br> npm install<br> npm run dev",
+          "description": "Vite: بيئة تطوير سريعة وخفيفة تدعم أنواعًا متعددة من المشاريع (React، Vue، وغيرها)، مع تركيز على السرعة في وقت التطوير.",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
           "titleCard": "npx create-react-app name-folder",
-          "description": "تقوم بعمل ملف لي مشروع react.js للمشاريع الصغيره او المتوسطه",
+          "description": "تقوم بعمل ملف لي مشروع react.js للمشاريع الصغيره ذات الصفحه الواحده",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
