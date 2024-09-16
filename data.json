@@ -3889,6 +3889,12 @@
           "titleCard": "&lt;p><br> &lt;span>timezones:&lt;/span> {ele.timezones.map((timezone, index) => (<br> &lt;span key={index}>{timezone}{index < ele.timezones.length - 1 ? ', ' : ''}&lt;/span><br> ))}<br> &lt;/p>",
           "description": "طريقه احضار عنصر array في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "import { useParams } from 'react-router-dom';<br><br> const { world } = useParams();<br><br> useEffect(() => {<br> const fetchData = async () => {<br> try {<br> const response = await fetch('/data.json');<br> const data = await response.json();<br> } catch (error) {<br> console.error('Error Fetch Data In Display World', error);<br> };<br> };<br><br> fetchData();<br> }, [world]);",
+          "description": "ال useParams تستخدم في صفحات العرض اذا تغير محتوي ال params يتغير معه محتوي الصفحه",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         }
       ]
     },
