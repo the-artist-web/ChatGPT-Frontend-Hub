@@ -9,24 +9,24 @@
 
   /* Dark Mode */
   --dark-hr-fr: #000000;
-  --dark-bg-color: #131417;
-  --dark-second-bg-color: #1e1f26;
+  --dark-bg-color: #09090b;
+  --dark-second-bg-color: #18181b;
   --dark-text-color: #fff;
-  --dark-second-color: #c7c9d2;
-  --dark-main-color: #47cf73;
-  --dark-other-color: #248c46;
-  --dark-border-color: #444857;
+  --dark-second-color: #646466;
+  --dark-main-color: #fafafa;
+  --dark-other-color: #27272a;
+  --dark-border-color: #262629;
   
   /* Light Mode */
   --light-hr-fr: #ffffff;
-  --light-main-color: #47cf73;
-  --light-other-color: #248c46;
+  --light-main-color: #18181b;
+  --light-other-color: #f4f4f5;
   --light-border-color: #B0B0B5;
   --light-bg-color: #FFFFFF;
   --light-second-bg-color: #F0F0F5;
-  --light-second-color: #707070;
+  --light-second-color: #939394;
   --light-text-color: #000000;
-  --light-border-color: #b9b9b9;
+  --light-border-color: #ebebed;
 
   /**
     * Typography
