@@ -3646,7 +3646,7 @@
       "cards": [
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "npm create vite@latest name-folder<br> cd name-folder<br> npm install<br> npm run dev",
+          "titleCard": "npm create vite@latest name-folder\n cd name-folder\n npm install\n npm run dev",
           "description": "Vite: بيئة تطوير سريعة وخفيفة تدعم أنواعًا متعددة من المشاريع (React، Vue، وغيرها)، مع تركيز على السرعة في وقت التطوير.",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3736,7 +3736,7 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "function elementName() {<br> return (<br><br>);<br> };<br> ----------------- <br> export default elementName",
+          "titleCard": "function elementName() {\n return (\n\n);\n };\n ----------------- \n export default elementName",
           "description": "هكذا يتم عمل element في react.js و export default بستخدمها علشان استدعي ال elementName في ال app.js لان js لغه مستقله لازم اعمل ليها export و استدعيها بي import",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3748,7 +3748,7 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import elementName from './elementName'; <br><br> &ltelementName />",
+          "titleCard": "import elementName from './elementName'; \n\n &ltelementName />",
           "description": "هنا بيتماستدعاء ال elementName في صفحه ال app.js و ال &ltelementName /> دي كذا بضيفها في الصفحه",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3766,19 +3766,19 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "src/<br> assets/<br> images/<br> fonts/<br> components/<br> Navbar/<br> Navbar.jsx<br> Navbar.css<br> Footer/<br> Footer.jsx<br> Footer.css<br> pages/<br> Home/<br> Home.jsx<br> Home.css<br> About/<br> About.jsx<br> About.css<br> context/<br> AuthContext.js<br> services/<br> api.js<br> styles/<br> global.css<br> utils/<br> formatDate.js<br> index.js",
-          "description": "Project structuring react.js", 
+          "titleCard": "src/\n assets/\n images/\n fonts/\n components/\n Navbar/\n Navbar.jsx\n Navbar.css\n Footer/\n Footer.jsx\n Footer.css\n pages/\n Home/\n Home.jsx\n Home.css\n About/\n About.jsx\n About.css\n context/\n AuthContext.js\n services/\n api.js\n styles/\n global.css\n utils/\n formatDate.js\n index.js",
+          "description": "Project structuring react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "function header(props) {<br> return (<br> &lt;header className='header'><br>{ props.text }<br> &lt;header> <br><br> &lt;header text='hello world'>}",
+          "titleCard": "function header(props) {\n return (\n &lt;header className='header'>\n{ props.text }\n &lt;header> \n\n &lt;header text='hello world'>}",
           "description": "كدا اقدر اعمل function بدون قيمه و اقدر اديله القسمه اما اجي استدعيه زي كدا &lt;header text='hello world'> و لو حطيت علامه ؟ عند props.؟text مش هيكون شرط تستخدمه",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "let noneHeader = true;<br> { noneHeader && &lt;Header /> }",
+          "titleCard": "let noneHeader = true;\n { noneHeader && &lt;Header /> }",
           "description": "هنا دي عمليه مشهوره جدا في react بقوله لو noneHeader == true اعرض ال &lt;Header />",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3790,7 +3790,7 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import link from 'next/link';<br> &lt;link href='/about>go to about&lt;/link>'",
+          "titleCard": "import link from 'next/link';\n &lt;link to='/about>go to about&lt;/link>'",
           "description": "هنا بستخدم ال link بدل a كوندشن في react",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3802,31 +3802,31 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "const function = () => {<br>};",
+          "titleCard": "const function = () => {\n};",
           "description": "دي ال function الي بستخدمها اعمل بيها onClick او هكذا",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { useState } from 'react'; <br> const [counter, setCounter] = useState(0);",
+          "titleCard": "import { useState } from 'react'; \n const [counter, setCounter] = useState(0);",
           "description": "هنا ال useState بيعمل render للصفحه كلها في حاله اني بعمل زرار و عاوزازود ال counter شرطه لازم يكون في const و معمول في array و اكون مديله اسم و اما اجي استخدمه بستخدم الاسم الي هوا setCounter و طبعا بحط القيمه الي هوا محتاجها اذا كانت string او number و بيستخدم كدا setCounter(counter + 1); مثلا",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { useState } from 'react'; <br> useEffect(() => {  });",
+          "titleCard": "import { useState } from 'react'; \n useEffect(() => {  });",
           "description": "هنا بستخدمها في حاله اني عاوز اشغل function من غير onClick او هكذا فا هنا كل اما اعمل render للصفحه هيقوم مشغلها انها لو عاوزها تشتغل مع اول render بس بعمل كدا useEffect(() => {  }, []);",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { useRef } from 'react'; <br> useRef();",
+          "titleCard": "import { useRef } from 'react'; \n useRef();",
           "description": "بتستخدم في input في اني اجيب منها ال value زي كدا &lt;input ref={} />  و جوا ال ref اقدر احط ال function الي انا عاملها بتطلع ال value",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';<br> function App() {<br> return (<br> &lt;Router><br> &lt;nav><br> &lt;ul><br> &lt;li><br> &lt;Link to='/'>Home&lt;/Link><br> &lt;/li><br> &lt;li><br> &lt;Link to='/about'>About&lt;/Link><br> &lt;/li><br> &lt;/ul><br> &lt;/nav><br> <br> &lt;Routes><br> &lt;Route path='/' element={<Home />} /><br> &lt;Route path='/about' element={<About />} /><br> &lt;/Routes><br> &lt;/Router><br> );<br> }<br> export default App;<br><br> &lt;Link to='/'>&lt;/Link>",
+          "titleCard": "import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';\n function App() {\n return (\n &lt;Router>\n &lt;nav>\n &lt;ul>\n &lt;li>\n &lt;Link to='/'>Home&lt;/Link>\n &lt;/li>\n &lt;li>\n &lt;Link to='/about'>About&lt;/Link>\n &lt;/li>\n &lt;/ul>\n &lt;/nav>\n \n &lt;Routes>\n &lt;Route path='/' element={<Home />} />\n &lt;Route path='/about' element={<About />} />\n &lt;/Routes>\n &lt;/Router>\n );\n }\n export default App;\n\n &lt;Link to='/'>&lt;/Link>",
           "description": "دي طريقه التنقل في rourter في ملف npx create-react-app و ليس ملف npx create-next-app",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
@@ -3838,88 +3838,106 @@
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { useNavigate } from 'react-router-dom';<br><br> const navigate = useNavigate();<br><br> const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {<br> if (e.key === 'Enter' && searchTerm.trim()) {<br> navigate(/search-world?search=${searchTerm.toLowerCase().trim()});<br> };<br> };<br><br> &lt;input<br> type='text'<br> onKeyDown={handleKeyDown}<br> />",
+          "titleCard": "import { useNavigate } from 'react-router-dom';\n\n const navigate = useNavigate();\n\n const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {\n if (e.key === 'Enter' && searchTerm.trim()) {\n navigate(/search-world?search=${searchTerm.toLowerCase().trim()});\n };\n };\n\n &lt;input\n type='text'\n onKeyDown={handleKeyDown}\n />",
           "description": "طريفه التنقل بين الصفحه في حاله وضع value في url",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "return () => {<br> search_header.addEventListener('focus', openSearchBox);<br> overflow.removeEventListener('click', closeSearchBoxOverflow);<br> close_search_box.removeEventListener('click', closeSearchBox);<br> };",
+          "titleCard": "return () => {\n search_header.addEventListener('focus', openSearchBox);\n overflow.removeEventListener('click', closeSearchBoxOverflow);\n close_search_box.removeEventListener('click', closeSearchBox);\n };",
           "description": "عندما تضيف مستمعين للأحداث أو تستخدم تأثيرات أخرى في useEffect, من المهم تنظيفها عند عدم الحاجة إليها بعد الآن. خلاف ذلك، قد تبقى الأحداث أو التأثيرات نشطة حتى بعد إزالة المكون من الشاشة، مما قد يؤدي إلى مشاكل في الأداء أو الأخطاء.",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "React.createElement(<br> Link,<br> {<br> key: index,<br> to: `/display-world?world=${country.world}&region=${country.region}`,<br> className: 'card-searchbar'<br> },<br> React.createElement('img', {<br> src: country.flagUrl,<br> alt: country.countryName,<br> loading: 'lazy',<br> className: 'img-card img-cover'<br> }),<br> React.createElement(<br> 'div',<br> { className: 'card-body' },<br> React.createElement('h1', { className: 'name label-large' }, country.countryName),<br> React.createElement(<br> 'p',<br> { className: 'text-content label-small' },<br> `${country.countryAltName} - ${country.capital} - ${country.continent}`<br> )<br> )<br> );",
+          "titleCard": "React.createElement(\n Link,\n {\n key: index,\n to: `/display-world?world=${country.world}&region=${country.region}`,\n className: 'card-searchbar'\n },\n React.createElement('img', {\n src: country.flagUrl,\n alt: country.countryName,\n loading: 'lazy',\n className: 'img-card img-cover'\n }),\n React.createElement(\n 'div',\n { className: 'card-body' },\n React.createElement('h1', { className: 'name label-large' }, country.countryName),\n React.createElement(\n 'p',\n { className: 'text-content label-small' },\n `${country.countryAltName} - ${country.capital} - ${country.continent}`\n )\n )\n );",
           "description": "طريقه عمل createElement في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { useEffect, useState } from 'react';<br><br> const [data, setData] = useState<DataType[]>([]);<br><br> useEffect(() => {<br> const fetchData = async () => {<br> try {<br> const response = await fetch('/data.json');<br> const result = await response.json();<br> setData(result);<br> } catch (error) {<br> console.error('Error Fetch Data', error);<br> };<br> };<br><br> fetchData();<br> }, []);",
+          "titleCard": "import { useEffect, useState } from 'react';\n\n const [data, setData] = useState<DataType[]>([]);\n\n useEffect(() => {\n const fetchData = async () => {\n try {\n const response = await fetch('/data.json');\n const result = await response.json();\n setData(result);\n } catch (error) {\n console.error('Error Fetch Data', error);\n };\n };\n\n fetchData();\n }, []);",
           "description": "طريقه استدعاء ال api في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "&lt;div className='searchbar' data-searchbar><br> {filteredData.map((ele) => (<br> &lt;Link to={`/display-world?world=${ele.name}&region=${ele.region}`} className='card-searchbar' key={ele.name}><br> &lt;<img src={ele.flag} alt={ele.name} loading='lazy' className='img-card img-cover' /><br> &lt;div className='card-body'><br> &lt;h1 className='name label-large'>{ele.name}&lt;/h1><br> &lt;p className='text-content label-small'>{`${ele.nativeName} - ${ele.capital} - ${ele.region}`}&lt;/p><br> &lt;/div><br> &lt;/Link><br> ))}<br> &lt;/div>",
+          "titleCard": "&lt;div className='searchbar' data-searchbar>\n {filteredData.map((ele) => (\n &lt;Link to={`/display-world?world=${ele.name}&region=${ele.region}`} className='card-searchbar' key={ele.name}>\n &lt;<img src={ele.flag} alt={ele.name} loading='lazy' className='img-card img-cover' />\n &lt;div className='card-body'>\n &lt;h1 className='name label-large'>{ele.name}&lt;/h1>\n &lt;p className='text-content label-small'>{`${ele.nativeName} - ${ele.capital} - ${ele.region}`}&lt;/p>\n &lt;/div>\n &lt;/Link>\n ))}\n &lt;/div>",
           "description": "طريقه عرض العناصر في react",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { NavLink } from 'react-router-dom';<br> &lt;NavLink<br>  to='/'<br> className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-house'>&lt;/i><br> &lt;/NavLink><br> &lt;NavLink<br>  to='/search-world'<br>  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-magnifying-glass'>&lt;/i><br> &lt;/NavLink><br> &lt;NavLink<br>  to='/all-world'<br>  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-border-all'>&lt;/i><br> &lt;/NavLink><br> &lt;NavLink<br>  to='/saved-world'<br>  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br> ><br> &lt;i className='fa-solid fa-bookmark'>&lt;/i><br> &lt;/NavLink>",
+          "titleCard": "import { NavLink } from 'react-router-dom';\n &lt;NavLink\n  to='/'\n className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-house'>&lt;/i>\n &lt;/NavLink>\n &lt;NavLink\n  to='/search-world'\n  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-magnifying-glass'>&lt;/i>\n &lt;/NavLink>\n &lt;NavLink\n  to='/all-world'\n  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-border-all'>&lt;/i>\n &lt;/NavLink>\n &lt;NavLink\n  to='/saved-world'\n  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-bookmark'>&lt;/i>\n &lt;/NavLink>",
           "description": "يقوم بوضع active اللينك الي موجدود في header علي حسب الصفحه الي موجود بيها",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "const saveRefs = useRef<HTMLElement[]>([]);<br> const unsaveRefs = useRef<HTMLElement[]>([]);<br><br> useEffect(() => {<br> const likedWorlds = JSON.parse(localStorage.getItem('likeWorld') || '[]');<br> saveRefs.current.forEach((saveButton, index) => {<br const unsaveButton = unsaveRefs.current[index];<br if (!saveButton || !unsaveButton) return;<br> const likeWorld = data[index]?.name;<br> if (!likeWorld) return;<br> if (likedWorlds.includes(likeWorld)) {<br> saveButton.classList.add('active');<br> unsaveButton.classList.add('active');<br> };<br> saveButton.addEventListener('click', () => {<br> saveWorld(likeWorld);<br> saveButton.classList.add('active');<br> unsaveButton.classList.add('active');<br> });<br> unsaveButton.addEventListener('click', () => {<br> unsavedWorld(likeWorld);<br> saveButton.classList.remove('active');<br> unsaveButton.classList.remove('active');<br> });<br> });<br><br> return () => {<br> saveRefs.current.forEach((saveButton, index) => {<br> const unsaveButton = unsaveRefs.current[index];<br> if (!saveButton || !unsaveButton) return;<br> saveButton.removeEventListener('click', () => {});<br> unsaveButton.removeEventListener('click', () => {});<br> });<br> };<br> }, [data]);<br><br> &lt;button<br> ref={el => saveRefs.current[index] = el!}<br> className='btn-saved save label-small' <br> data-save<br> ><br> &lt;i className='fa-regular fa-bookmark'>&lt;/i><br> &lt;/button><br><br> &lt;button<br> ref={el => unsaveRefs.current[index] = el!}<br> className='btn-saved unsaved label-small' <br> data-unsaved<br> ><br> &lt;i className='fa-solid fa-bookmark'>&lt;/i><br> &lt;/button><br>",
+          "titleCard": "const saveRefs = useRef<HTMLElement[]>([]);\n const unsaveRefs = useRef<HTMLElement[]>([]);\n\n useEffect(() => {\n const likedWorlds = JSON.parse(localStorage.getItem('likeWorld') || '[]');\n saveRefs.current.forEach((saveButton, index) => {<br const unsaveButton = unsaveRefs.current[index];<br if (!saveButton || !unsaveButton) return;\n const likeWorld = data[index]?.name;\n if (!likeWorld) return;\n if (likedWorlds.includes(likeWorld)) {\n saveButton.classList.add('active');\n unsaveButton.classList.add('active');\n };\n saveButton.addEventListener('click', () => {\n saveWorld(likeWorld);\n saveButton.classList.add('active');\n unsaveButton.classList.add('active');\n });\n unsaveButton.addEventListener('click', () => {\n unsavedWorld(likeWorld);\n saveButton.classList.remove('active');\n unsaveButton.classList.remove('active');\n });\n });\n\n return () => {\n saveRefs.current.forEach((saveButton, index) => {\n const unsaveButton = unsaveRefs.current[index];\n if (!saveButton || !unsaveButton) return;\n saveButton.removeEventListener('click', () => {});\n unsaveButton.removeEventListener('click', () => {});\n });\n };\n }, [data]);\n\n &lt;button\n ref={el => saveRefs.current[index] = el!}\n className='btn-saved save label-small' \n data-save\n >\n &lt;i className='fa-regular fa-bookmark'>&lt;/i>\n &lt;/button>\n\n &lt;button\n ref={el => unsaveRefs.current[index] = el!}\n className='btn-saved unsaved label-small' \n data-unsaved\n >\n &lt;i className='fa-solid fa-bookmark'>&lt;/i>\n &lt;/button>\n",
           "description": "طريقه حفظ العناصر في المفضله في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "function CardSkeleton() { <br> return &lt;div className='card-skeleton'>&lt;/div>; <br> };<br><br> const [loading, setLoading] = useState(true);<br> useEffect(() => {<br> const fetchData = async () => {<br> try {<br> const response = await fetch('/data.json');<br> const data = await response.json();<br> setData(shuffleArray(data.slice(30, 60)));<br> setLoading(false);<br> } catch (error) {<br> console.error('Error Fetch Data In Home List', error);<br> }<br> setLoading(false);<br> };<br><br> fetchData();<br> // هنا توضع ال setLoading لكي يحذف ال Skeleton بعد تحميل العناصر<br> }, []);<br><br> {loading ? (<br> Array(4).fill(0).map((_, index) => <CardSkeleton key={index} />)<br> ) : (<br> data.map((ele, index) => (<br> // هنا توضع العناصر<br> ))<br> )}",
+          "titleCard": "function CardSkeleton() { \n return &lt;div className='card-skeleton'>&lt;/div>; \n };\n\n const [loading, setLoading] = useState(true);\n useEffect(() => {\n const fetchData = async () => {\n try {\n const response = await fetch('/data.json');\n const data = await response.json();\n setData(shuffleArray(data.slice(30, 60)));\n setLoading(false);\n } catch (error) {\n console.error('Error Fetch Data In Home List', error);\n }\n setLoading(false);\n };\n\n fetchData();\n // هنا توضع ال setLoading لكي يحذف ال Skeleton بعد تحميل العناصر\n }, []);\n\n {loading ? (\n Array(4).fill(0).map((_, index) => <CardSkeleton key={index} />)\n ) : (\n data.map((ele, index) => (\n // هنا توضع العناصر\n ))\n )}",
           "description": "طريقه وضع skeleton في react.js قبل تحميل العناصر",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "useEffect(() => {<br> document.title = 'العنوان الجديد';<br> }, []);",
+          "titleCard": "useEffect(() => {\n document.title = 'العنوان الجديد';\n }, []);",
           "description": "طريقه تغيير عنوان ال title في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "&lt;p><br> &lt;span>timezones:&lt;/span> {ele.timezones.map((timezone, index) => (<br> &lt;span key={index}>{timezone}{index < ele.timezones.length - 1 ? ', ' : ''}&lt;/span><br> ))}<br> &lt;/p>",
+          "titleCard": "&lt;p>\n &lt;span>timezones:&lt;/span> {ele.timezones.map((timezone, index) => (\n &lt;span key={index}>{timezone}{index < ele.timezones.length - 1 ? ', ' : ''}&lt;/span>\n ))}\n &lt;/p>",
           "description": "طريقه احضار عنصر array في react.js",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react ( 9 ).png",
-          "titleCard": "import { useParams } from 'react-router-dom';<br><br> const { world } = useParams();<br><br> useEffect(() => {<br> const fetchData = async () => {<br> try {<br> const response = await fetch('/data.json');<br> const data = await response.json();<br> } catch (error) {<br> console.error('Error Fetch Data In Display World', error);<br> };<br> };<br><br> fetchData();<br> }, [world]);",
+          "titleCard": "import { useParams } from 'react-router-dom';\n\n const { world } = useParams();\n\n useEffect(() => {\n const fetchData = async () => {\n try {\n const response = await fetch('/data.json');\n const data = await response.json();\n } catch (error) {\n console.error('Error Fetch Data In Display World', error);\n };\n };\n\n fetchData();\n }, [world]);",
           "description": "ال useParams تستخدم في صفحات العرض اذا تغير محتوي ال params يتغير معه محتوي الصفحه",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react (9).png",
-          "titleCard": "لرفع مشروع React.js مبني باستخدام Vite على GitHub وعمل استضافة للمشروع على GitHub Pages، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع React باستخدام Vite**\n   أولاً، إذا لم تكن قد أنشأت المشروع بالفعل، يمكنك إنشاء مشروع React باستخدام Vite عبر:\n\n```bash\nnpm create vite@latest my-vite-app\ncd my-vite-app\nnpm install\nnpm run dev\n```\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   إذا لم يكن لديك مستودع على GitHub، يمكنك إنشاء واحد كما يلي:\n\n1. اذهب إلى [GitHub](https://github.com).\n2. قم بإنشاء مستودع جديد (**New Repository**).\n3. انسخ رابط المستودع.\n\n### 3. **إضافة المشروع إلى GitHub**\nفي مشروعك على جهازك المحلي، قم بالخطوات التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin<br> main\n```\n\nاستبدل `<URL-TO-YOUR-REPO>` برابط المستودع الذي نسخته من GitHub.\n\n### 4. **تعديل إعدادات Vite لتوافق GitHub Pages**\n   Vite يحتاج إلى تعديل بسيط في إعداداته ليعمل بشكل صحيح على GitHub Pages، لأن المشاريع المستضافة على GitHub Pages عادةً ما تكون في مسار فرعي (subdirectory) مثل `https://username.github.io/repo-name/`.\n\nلذلك عليك تعديل إعداد `base` في `vite.config.js` كما يلي:\n\n```javascript\nimport { defineConfig } from 'vite'\nimport react from '@vitejs/plugin-react'\n\n// https://vitejs.dev/config/\nexport default defineConfig({\n  base: '/repo-name/', // استبدل 'repo-name' باسم المستودع الخاص بك\n  plugins: [react()],\n})\n```\n\n### 5. **بناء المشروع**\n   بعد التعديل، قم ببناء المشروع ليكون جاهزًا للرفع على GitHub Pages:\n\n```bash\nnpm run build\n```\n\nسيتم إنشاء مجلد باسم `dist` يحتوي على ملفات المشروع الجاهزة للنشر.\n\n### 6. **رفع المشروع إلى فرع `gh-pages`**\n   لاستخدام **GitHub Pages**، عليك رفع الملفات المبنية إلى فرع `gh-pages` على GitHub. يمكنك استخدام أداة `gh-pages` لتسهيل العملية.\n\n1. قم بتثبيت الحزمة `gh-pages`:\n\n```bash\nnpm install gh-pages --save-dev\n```\n\n2. في ملف `package.json`، أضف السكريبتات التالية:\n\n```json\n{\n  \"scripts\": {\n    \"predeploy\": \"npm run build\",\n    \"deploy\": \"gh-pages -d dist\"\n  }\n}\n```\n\n- `predeploy`: يبني المشروع تلقائيًا قبل النشر.\n- `deploy`: ينشر محتويات مجلد `dist` إلى فرع `gh-pages`.\n\n### 7. **نشر المشروع**\n   الآن قم بتشغيل الأمر التالي لنشر مشروعك على GitHub Pages:\n\n```bash\nnpm run deploy\n```\n\nسيقوم هذا الأمر ببناء المشروع ثم نشره إلى فرع `gh-pages` في GitHub.\n\n### 8. **تفعيل GitHub Pages**\n   1. اذهب إلى صفحة المستودع الخاص بك على GitHub.\n   2. انتقل إلى الإعدادات (**Settings**).\n   3. في القائمة الجانبية، اختر **Pages**.\n   4. ضمن قسم **Source**، اختر الفرع `gh-pages` كمصدر، ثم اضغط على **Save**.\n\nبعد بضع دقائق، سيكون مشروعك متاحًا على الرابط `https://username.github.io/repo-name/`.\n\n### 9. **التأكد من نجاح النشر**\n   انتقل إلى الرابط المذكور وتأكد من أن موقعك يعمل بشكل صحيح.\n\n### **ملخص الخطوات**:\n1. قم بإنشاء مشروع React باستخدام Vite.\n2. ارفع المشروع إلى GitHub.\n3. عدل إعدادات `vite.config.js` لتعيين `base` بشكل صحيح.\n4. قم ببناء المشروع باستخدام `npm run build`.\n5. استخدم أداة `gh-pages` لنشر المشروع إلى فرع `gh-pages`.\n6. فعل **GitHub Pages** من إعدادات المستودع.\n7. تأكد من أن المشروع يعمل على GitHub Pages.",
-          "description": "كيفية نشر مشروع React باستخدام Vite على GitHub Pages",
+          "titleCard": "كيفية نشر مشروع React باستخدام Vite على GitHub Pages",
+          "description": "لرفع مشروع React.js مبني باستخدام Vite على GitHub وعمل استضافة للمشروع على GitHub Pages، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع React باستخدام Vite**\n   أولاً، إذا لم تكن قد أنشأت المشروع بالفعل، يمكنك إنشاء مشروع React باستخدام Vite عبر:\n\n```bash\nnpm create vite@latest my-vite-app\ncd my-vite-app\nnpm install\nnpm run dev\n```\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   إذا لم يكن لديك مستودع على GitHub، يمكنك إنشاء واحد كما يلي:\n\n1. اذهب إلى [GitHub](https://github.com).\n2. قم بإنشاء مستودع جديد (**New Repository**).\n3. انسخ رابط المستودع.\n\n### 3. **إضافة المشروع إلى GitHub**\nفي مشروعك على جهازك المحلي، قم بالخطوات التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin\n main\n```\n\nاستبدل `<URL-TO-YOUR-REPO>` برابط المستودع الذي نسخته من GitHub.\n\n### 4. **تعديل إعدادات Vite لتوافق GitHub Pages**\n   Vite يحتاج إلى تعديل بسيط في إعداداته ليعمل بشكل صحيح على GitHub Pages، لأن المشاريع المستضافة على GitHub Pages عادةً ما تكون في مسار فرعي (subdirectory) مثل `https://username.github.io/repo-name/`.\n\nلذلك عليك تعديل إعداد `base` في `vite.config.js` كما يلي:\n\n```javascript\nimport { defineConfig } from 'vite'\nimport react from '@vitejs/plugin-react'\n\n// https://vitejs.dev/config/\nexport default defineConfig({\n  base: '/repo-name/', // استبدل 'repo-name' باسم المستودع الخاص بك\n  plugins: [react()],\n})\n```\n\n### 5. **بناء المشروع**\n   بعد التعديل، قم ببناء المشروع ليكون جاهزًا للرفع على GitHub Pages:\n\n```bash\nnpm run build\n```\n\nسيتم إنشاء مجلد باسم `dist` يحتوي على ملفات المشروع الجاهزة للنشر.\n\n### 6. **رفع المشروع إلى فرع `gh-pages`**\n   لاستخدام **GitHub Pages**، عليك رفع الملفات المبنية إلى فرع `gh-pages` على GitHub. يمكنك استخدام أداة `gh-pages` لتسهيل العملية.\n\n1. قم بتثبيت الحزمة `gh-pages`:\n\n```bash\nnpm install gh-pages --save-dev\n```\n\n2. في ملف `package.json`، أضف السكريبتات التالية:\n\n```json\n{\n  \"scripts\": {\n    \"predeploy\": \"npm run build\",\n    \"deploy\": \"gh-pages -d dist\"\n  }\n}\n```\n\n- `predeploy`: يبني المشروع تلقائيًا قبل النشر.\n- `deploy`: ينشر محتويات مجلد `dist` إلى فرع `gh-pages`.\n\n### 7. **نشر المشروع**\n   الآن قم بتشغيل الأمر التالي لنشر مشروعك على GitHub Pages:\n\n```bash\nnpm run deploy\n```\n\nسيقوم هذا الأمر ببناء المشروع ثم نشره إلى فرع `gh-pages` في GitHub.\n\n### 8. **تفعيل GitHub Pages**\n   1. اذهب إلى صفحة المستودع الخاص بك على GitHub.\n   2. انتقل إلى الإعدادات (**Settings**).\n   3. في القائمة الجانبية، اختر **Pages**.\n   4. ضمن قسم **Source**، اختر الفرع `gh-pages` كمصدر، ثم اضغط على **Save**.\n\nبعد بضع دقائق، سيكون مشروعك متاحًا على الرابط `https://username.github.io/repo-name/`.\n\n### 9. **التأكد من نجاح النشر**\n   انتقل إلى الرابط المذكور وتأكد من أن موقعك يعمل بشكل صحيح.\n\n### **ملخص الخطوات**:\n1. قم بإنشاء مشروع React باستخدام Vite.\n2. ارفع المشروع إلى GitHub.\n3. عدل إعدادات `vite.config.js` لتعيين `base` بشكل صحيح.\n4. قم ببناء المشروع باستخدام `npm run build`.\n5. استخدم أداة `gh-pages` لنشر المشروع إلى فرع `gh-pages`.\n6. فعل **GitHub Pages** من إعدادات المستودع.\n7. تأكد من أن المشروع يعمل على GitHub Pages.",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
           "image": "./src/assets/image/react (9).png",
-          "titleCard": "لإنشاء مشروع React باستخدام `npx create-react-app`، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع React**\n   قم بتشغيل الأمر التالي في سطر الأوامر:\n\n```bash\nnpx create-react-app my-app\ncd my-app\nnpm start\n```\n\n- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-app` ويقوم بتثبيت جميع الحزم الضرورية.\n- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm start`.\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:\n\n1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.\n2. انسخ رابط المستودع.\n3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin main\n```\n\n### 3. **تفعيل GitHub Pages**\n   بعد رفع المشروع إلى GitHub، يمكنك تفعيل **GitHub Pages** لعرض المشروع على الإنترنت من إعدادات المستودع كما يلي:\n\n1. اذهب إلى إعدادات المستودع (**Settings**).\n2. في القائمة الجانبية، اختر **Pages**.\n3. اختر الفرع `main` كمصدر للموقع.\n4. اضغط على **Save**.\n\n### **ملخص الخطوات**:\n1. إنشاء مشروع باستخدام `npx create-react-app`.\n2. رفع المشروع إلى GitHub.\n3. تفعيل GitHub Pages من إعدادات المستودع.",
-          "description": "إنشاء مشروع React باستخدام Create React App",
+          "titleCard": "إنشاء مشروع React باستخدام Create React App",
+          "description": "لإنشاء مشروع React باستخدام `npx create-react-app`، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع React**\n   قم بتشغيل الأمر التالي في سطر الأوامر:\n\n```bash\nnpx create-react-app my-app\ncd my-app\nnpm start\n```\n\n- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-app` ويقوم بتثبيت جميع الحزم الضرورية.\n- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm start`.\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:\n\n1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.\n2. انسخ رابط المستودع.\n3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin main\n```\n\n### 3. **تفعيل GitHub Pages**\n   بعد رفع المشروع إلى GitHub، يمكنك تفعيل **GitHub Pages** لعرض المشروع على الإنترنت من إعدادات المستودع كما يلي:\n\n1. اذهب إلى إعدادات المستودع (**Settings**).\n2. في القائمة الجانبية، اختر **Pages**.\n3. اختر الفرع `main` كمصدر للموقع.\n4. اضغط على **Save**.\n\n### **ملخص الخطوات**:\n1. إنشاء مشروع باستخدام `npx create-react-app`.\n2. رفع المشروع إلى GitHub.\n3. تفعيل GitHub Pages من إعدادات المستودع.",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
         },
         {
-          "image": "./src/assets/image/nextjs.png",
-          "titleCard": "لإنشاء مشروع Next.js باستخدام `npx create-next-app`، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع Next.js**\n   قم بتشغيل الأمر التالي في سطر الأوامر:\n\n```bash\nnpx create-next-app@latest my-next-app\ncd my-next-app\nnpm run dev\n```\n\n- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-next-app` ويقوم بتثبيت جميع الحزم الضرورية.\n- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm run dev`.\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:\n\n1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.\n2. انسخ رابط المستودع.\n3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin main\n```\n\n### 3. **تفعيل GitHub Pages لمشروع Next.js**\n   استخدام **GitHub Pages** مع Next.js يتطلب إعدادات إضافية مثل تصدير المشروع كملفات HTML ثابتة باستخدام الأمر `next export`. بعد تصدير المشروع، يمكنك رفع الملفات المبنية إلى فرع `gh-pages` أو استخدام مجلد `docs`.\n\n### **ملخص الخطوات**:\n1. إنشاء مشروع باستخدام `npx create-next-app`.\n2. تصدير المشروع باستخدام `next export`.\n3. رفع المشروع إلى GitHub.\n4. تفعيل GitHub Pages باستخدام الملفات الثابتة المصدرة.",
-          "description": "إنشاء مشروع Next.js باستخدام Create Next App",
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "إنشاء مشروع Next.js باستخدام Create Next App",
+          "description": "لإنشاء مشروع Next.js باستخدام `npx create-next-app`، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع Next.js**\n   قم بتشغيل الأمر التالي في سطر الأوامر:\n\n```bash\nnpx create-next-app@latest my-next-app\ncd my-next-app\nnpm run dev\n```\n\n- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-next-app` ويقوم بتثبيت جميع الحزم الضرورية.\n- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm run dev`.\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:\n\n1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.\n2. انسخ رابط المستودع.\n3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin main\n```\n\n### 3. **تفعيل GitHub Pages لمشروع Next.js**\n   استخدام **GitHub Pages** مع Next.js يتطلب إعدادات إضافية مثل تصدير المشروع كملفات HTML ثابتة باستخدام الأمر `next export`. بعد تصدير المشروع، يمكنك رفع الملفات المبنية إلى فرع `gh-pages` أو استخدام مجلد `docs`.\n\n### **ملخص الخطوات**:\n1. إنشاء مشروع باستخدام `npx create-next-app`.\n2. تصدير المشروع باستخدام `next export`.\n3. رفع المشروع إلى GitHub.\n4. تفعيل GitHub Pages باستخدام الملفات الثابتة المصدرة.",
           "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> Next.js"
-        }        
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "{window.location.pathname !== '/' && window.location.pathname !== '/home' && <Footer />}",
+          "description": "دي طريقه بعملها في ملف app.tsx بقوله متظهرش ال footer في صفحه ال home و اظهرها في الباقي عادي و كمان صفحه / متظهرش بيها",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> Next.js"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "<Route path='/docs' element={\n<>\n<Header />\n<Docs />\n<Footer />\n</>\n} />",
+          "description": "دي طريقه بقوله اظهر ال header و ال footer في الصفحه دي",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> Next.js"
+        },
+        {
+          "image": "./src/assets/image/react ( 9 ).png",
+          "titleCard": "import { useLocation } from 'react-router-dom';\nconst location = useLocation();",
+          "description": "تستخدم في تغيير محتوي الصفحه عند تغير ال url",
+          "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> Next.js"
+        } 
       ]
     },
     {
