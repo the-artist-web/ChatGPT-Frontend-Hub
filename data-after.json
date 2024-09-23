@@ -181,7 +181,7 @@
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;head> &lt;meta charset='UTF-8'>\n &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'>\n &lt;title>عنوان الصفحة&lt;/title>\n &lt;link rel='stylesheet' href='styles.css'>\n </head>",
+        "titleCard": "&lt;head> &lt;meta charset='UTF-8'><br /> &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'><br /> &lt;title>عنوان الصفحة&lt;/title><br /> &lt;link rel='stylesheet' href='styles.css'><br /> </head>",
         "description": "يحتوي على معلومات وصفية (metadata) حول الوثيقة مثل الترميز، العنوان، الروابط للملفات الخارجية مثل CSS.",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
@@ -199,37 +199,37 @@
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;ul>\n &lt;li>عنصر قائمة 1&lt;/li>\n &lt;li>عنصر قائمة 2&lt;/li>\n &lt;li>عنصر قائمة 3&lt;/li>\n &lt;/ul>",
+        "titleCard": "&lt;ul><br /> &lt;li>عنصر قائمة 1&lt;/li><br /> &lt;li>عنصر قائمة 2&lt;/li><br /> &lt;li>عنصر قائمة 3&lt;/li><br /> &lt;/ul>",
         "description": "قائمة غير مرتبة",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;ol>\n &lt;li>عنصر قائمة 1&lt;/li>\n &lt;li>عنصر قائمة 2&lt;/li>\n &lt;li>عنصر قائمة 3&lt;/li>\n &lt;/ol>",
+        "titleCard": "&lt;ol><br /> &lt;li>عنصر قائمة 1&lt;/li><br /> &lt;li>عنصر قائمة 2&lt;/li><br /> &lt;li>عنصر قائمة 3&lt;/li><br /> &lt;/ol>",
         "description": "قائمة مرتبة",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;table>\n &lt;thead>\n &lt;tr>\n &lt;th>عنوان العمود 1&lt;/th>\n &lt;th>عنوان العمود 2&lt;/th>\n &lt;/tr>\n &lt;/thead>\n &lt;tbody>\n &lt;tr>\n &lt;td>خلية 1&lt;/td>\n &lt;td>خلية 2&lt;/td>\n &lt;/tr>\n &lt;tr>\n &lt;td>خلية 3&lt;/td>\n &lt;td>خلية 4&lt;/td>\n &lt;/tr>\n &lt;/tbody>\n &lt;/table>",
+        "titleCard": "&lt;table><br /> &lt;thead><br /> &lt;tr><br /> &lt;th>عنوان العمود 1&lt;/th><br /> &lt;th>عنوان العمود 2&lt;/th><br /> &lt;/tr><br /> &lt;/thead><br /> &lt;tbody><br /> &lt;tr><br /> &lt;td>خلية 1&lt;/td><br /> &lt;td>خلية 2&lt;/td><br /> &lt;/tr><br /> &lt;tr><br /> &lt;td>خلية 3&lt;/td><br /> &lt;td>خلية 4&lt;/td><br /> &lt;/tr><br /> &lt;/tbody><br /> &lt;/table>",
         "description": "وسوم الجداول",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='name'>الاسم:&lt;/label>\n &lt;input type='text' id='name' name='name' placeholder='أدخل اسمك' required>",
+        "titleCard": "&lt;label for='name'>الاسم:&lt;/label><br /> &lt;input type='text' id='name' name='name' placeholder='أدخل اسمك' required>",
         "description": "حقل النص",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='email'>البريد الإلكتروني:&lt;/label>\n &lt;input type='email' id='email' name='email' placeholder='أدخل بريدك الإلكتروني' required>",
+        "titleCard": "&lt;label for='email'>البريد الإلكتروني:&lt;/label><br /> &lt;input type='email' id='email' name='email' placeholder='أدخل بريدك الإلكتروني' required>",
         "description": "حقل البريد الإلكتروني",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='message'>الرسالة:&lt;/label>\n &lt;textarea id='message' name='message' placeholder='اكتب رسالتك هنا' rows='4' required>&lt;/textarea>",
+        "titleCard": "&lt;label for='message'>الرسالة:&lt;/label><br /> &lt;textarea id='message' name='message' placeholder='اكتب رسالتك هنا' rows='4' required>&lt;/textarea>",
         "description": "منطقة النص",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
@@ -247,31 +247,31 @@
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='subscribe'>اشترك في النشرة الإخبارية:&lt;/label>\n &lt;input type='checkbox' id='subscribe' name='subscribe' value='newsletter'>",
+        "titleCard": "&lt;label for='subscribe'>اشترك في النشرة الإخبارية:&lt;/label><br /> &lt;input type='checkbox' id='subscribe' name='subscribe' value='newsletter'>",
         "description": "مربع اختيار",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='male'>ذكر&lt;/label>\n &lt;input type='radio' id='male' name='gender' value='male'>\n &lt;label for='female'>أنثى</label>\n &lt;input type='radio' id='female' name='gender' value='female'>",
+        "titleCard": "&lt;label for='male'>ذكر&lt;/label><br /> &lt;input type='radio' id='male' name='gender' value='male'><br /> &lt;label for='female'>أنثى</label><br /> &lt;input type='radio' id='female' name='gender' value='female'>",
         "description": "زر راديو",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='options'>اختر خيار:&lt;/label>\n &lt;select id='options' name='options'>\n &lt;option value='1'>الخيار 1&lt;/option>\n &lt;option value='2'>الخيار 2&lt;/option>\n &lt;option value='3'>الخيار 3&lt;/option>\n &lt;/select>",
+        "titleCard": "&lt;label for='options'>اختر خيار:&lt;/label><br /> &lt;select id='options' name='options'><br /> &lt;option value='1'>الخيار 1&lt;/option><br /> &lt;option value='2'>الخيار 2&lt;/option><br /> &lt;option value='3'>الخيار 3&lt;/option><br /> &lt;/select>",
         "description": "قائمة منسدلة",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;video width='320' height='240' controls>\n &lt;source src='movie.mp4' type='video/mp4'>\n متصفحك لا يدعم عنصر الفيديو.\n &lt;/video>",
+        "titleCard": "&lt;video width='320' height='240' controls><br /> &lt;source src='movie.mp4' type='video/mp4'><br /> متصفحك لا يدعم عنصر الفيديو.<br /> &lt;/video>",
         "description": "إدراج فيديو",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&ltaudio controls>\n &ltsource src='audio.mp3' type='audio/mpeg'>\n متصفحك لا يدعم عنصر الصوت.\n &lt;/audio>",
+        "titleCard": "&ltaudio controls><br /> &ltsource src='audio.mp3' type='audio/mpeg'><br /> متصفحك لا يدعم عنصر الصوت.<br /> &lt;/audio>",
         "description": "إدراج صوت",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
@@ -283,13 +283,13 @@
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&ltsvg width='100' height='100'>\n &ltcircle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' />\n &lt/svg>",
+        "titleCard": "&ltsvg width='100' height='100'><br /> &ltcircle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /><br /> &lt/svg>",
         "description": "وسوم الأشكال الرسومية SVG (Scalable Vector Graphics)",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;canvas id='myCanvas' width='200' height='100' style='border:1px solid #000000;'>\n متصفحك لا يدعم عنصر canvas.\n &lt;/canvas>",
+        "titleCard": "&lt;canvas id='myCanvas' width='200' height='100' style='border:1px solid #000000;'><br /> متصفحك لا يدعم عنصر canvas.<br /> &lt;/canvas>",
         "description": "Canvas",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
@@ -379,13 +379,13 @@
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;object data='file.pdf' type='application/pdf' width='600' height='400'>\n المستعرض لا يدعم عرض الملف.\n &lt;/object>",
+        "titleCard": "&lt;object data='file.pdf' type='application/pdf' width='600' height='400'><br /> المستعرض لا يدعم عرض الملف.<br /> &lt;/object>",
         "description": "وسوم التضمين",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;object data='movie.swf' type='application/x-shockwave-flash' width='400' height='300'>\n &lt;param name='autoplay' value='true'>\n &lt;param name='loop' value='false'>\n &lt;/object>",
+        "titleCard": "&lt;object data='movie.swf' type='application/x-shockwave-flash' width='400' height='300'><br /> &lt;param name='autoplay' value='true'><br /> &lt;param name='loop' value='false'><br /> &lt;/object>",
         "description": "وسوم التضمين",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
@@ -409,86 +409,86 @@
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;script src='scripts.js'></script>\n &lt;script>\n document.addEventListener('DOMContentLoaded', function() {\n console.log('الصفحة جاهزة.');\n });\n &lt;/script>",
+        "titleCard": "&lt;script src='scripts.js'></script><br /> &lt;script><br /> document.addEventListener('DOMContentLoaded', function() {<br /> console.log('الصفحة جاهزة.');<br /> });<br /> &lt;/script>",
         "description": "وسوم البرمجة تستخدم هذه الوسوم لربط وتضمين شفرة JavaScript في صفحات الويب.",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;noscript>\n &lt;p>متصفحك لا يدعم JavaScript أو أن JavaScript معطلة.&lt;/p>\n &lt;/noscript>",
+        "titleCard": "&lt;noscript><br /> &lt;p>متصفحك لا يدعم JavaScript أو أن JavaScript معطلة.&lt;/p><br /> &lt;/noscript>",
         "description": "وسوم البرمجة تستخدم هذه الوسوم لربط وتضمين شفرة JavaScript في صفحات الويب.",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='search'>بحث:&lt;/label>\n &lt;input type='search' id='search' name='search' placeholder='ابحث هنا'>",
+        "titleCard": "&lt;label for='search'>بحث:&lt;/label><br /> &lt;input type='search' id='search' name='search' placeholder='ابحث هنا'>",
         "description": "حقل البحث",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='file'>ارفع ملف:&lt;/label>\n &lt;input type='file' id='file' name='file'>",
+        "titleCard": "&lt;label for='file'>ارفع ملف:&lt;/label><br /> &lt;input type='file' id='file' name='file'>",
         "description": "حقل الملف",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='quantity'>الكمية:&lt;/label>\n &lt;input type='number' id='quantity' name='quantity' min='1' max='10' step='1' value='1'>",
+        "titleCard": "&lt;label for='quantity'>الكمية:&lt;/label><br /> &lt;input type='number' id='quantity' name='quantity' min='1' max='10' step='1' value='1'>",
         "description": "حقل الرقم",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='range'>نطاق:&lt;/label>\n &lt;input type='range' id='range' name='range' min='0' max='100' step='10' value='50'>",
+        "titleCard": "&lt;label for='range'>نطاق:&lt;/label><br /> &lt;input type='range' id='range' name='range' min='0' max='100' step='10' value='50'>",
         "description": "حقل النطاق",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='date'>تاريخ:&lt;/label>\n &lt;input type='date' id='date' name='date'>",
+        "titleCard": "&lt;label for='date'>تاريخ:&lt;/label><br /> &lt;input type='date' id='date' name='date'>",
         "description": "حقل التاريخ",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
-        "titleCard": "&lt;label for='time'>وقت:&lt;/label>\n &lt;input type='time' id='time' name='time'>",
+        "titleCard": "&lt;label for='time'>وقت:&lt;/label><br /> &lt;input type='time' id='time' name='time'>",
         "description": "حقل الوقت",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
         "titleCard": "header",
-        "description": "&lt;header>\n &lt;h1>عنوان الموقع</h1>\n &lt;nav>\n &lt;ul>\n &lt;li>&lt;a href='#home'>الرئيسية&lt;/a>&lt;/li>\n &lt;li>&lt;a href='#about'>حول&lt;/a>&lt;/li>\n &lt;li>&lt;a href='#contact'>اتصل بنا&lt;/a>&lt;/li>\n &lt;/ul>\n &lt;/nav>\n &lt;/header>",
+        "description": "&lt;header><br /> &lt;h1>عنوان الموقع</h1><br /> &lt;nav><br /> &lt;ul><br /> &lt;li>&lt;a href='#home'>الرئيسية&lt;/a>&lt;/li><br /> &lt;li>&lt;a href='#about'>حول&lt;/a>&lt;/li><br /> &lt;li>&lt;a href='#contact'>اتصل بنا&lt;/a>&lt;/li><br /> &lt;/ul><br /> &lt;/nav><br /> &lt;/header>",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
         "titleCard": "footer",
-        "description": "&lt;footer>\n &lt;p>&copy; 2024 موقعي. جميع الحقوق محفوظة.&lt;/p>\n &lt;/footer>",
+        "description": "&lt;footer><br /> &lt;p>&copy; 2024 موقعي. جميع الحقوق محفوظة.&lt;/p><br /> &lt;/footer>",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
         "titleCard": "section",
-        "description": "&lt;section id='about'>\n &lt;h2>حول&lt;/h2>\n &lt;p>معلومات حول الموقع.&lt;/p>\n &lt;/section>",
+        "description": "&lt;section id='about'><br /> &lt;h2>حول&lt;/h2><br /> &lt;p>معلومات حول الموقع.&lt;/p><br /> &lt;/section>",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
         "titleCard": "article",
-        "description": "&lt;article>\n &lt;h2>مقالة&lt;/h2>\n &lt;p>هذا نص داخل مقالة.&lt;/p>\n &lt;/article>",
+        "description": "&lt;article><br /> &lt;h2>مقالة&lt;/h2><br /> &lt;p>هذا نص داخل مقالة.&lt;/p><br /> &lt;/article>",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
         "titleCard": "aside",
-        "description": "&lt;aside>\n &lt;h2>محتوى جانبي&lt;/h2>\n &lt;p>هذا نص داخل القسم الجانبي.&lt;/p>\n &lt;/aside>",
+        "description": "&lt;aside><br /> &lt;h2>محتوى جانبي&lt;/h2><br /> &lt;p>هذا نص داخل القسم الجانبي.&lt;/p><br /> &lt;/aside>",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
         "image": "./src/assets/image/html ( 2 ).png",
         "titleCard": "main",
-        "description": "&lt;main>\n &lt;h1>المحتوى الرئيسي&lt;/h1>\n &lt;p>هذا هو المحتوى الرئيسي للموقع.&lt;/p>\n &lt;/main>",
+        "description": "&lt;main><br /> &lt;h1>المحتوى الرئيسي&lt;/h1><br /> &lt;p>هذا هو المحتوى الرئيسي للموقع.&lt;/p><br /> &lt;/main>",
         "lang": "<i class='fa-solid fa-circle circle-orange'></i> HTML"
       },
       {
@@ -1509,7 +1509,7 @@
       },
       {
         "image": "./src/assets/image/css ( 3 ).png",
-        "titleCard": ".home .slides {\n overflow: scroll;\n scroll-snap-type: x mandatory;\n scroll-behavior: smooth;\n }\n .home .slides .box-image {\n flex: 0 0 100%;\n scroll-snap-align: start;\n }",
+        "titleCard": ".home .slides {<br /> overflow: scroll;<br /> scroll-snap-type: x mandatory;<br /> scroll-behavior: smooth;<br /> }<br /> .home .slides .box-image {<br /> flex: 0 0 100%;<br /> scroll-snap-align: start;<br /> }",
         "description": "تقوم بتقسيم كل صوره في overflow الي 100%",
         "lang": "<i class='fa-solid fa-circle circle-purple'></i> CSS"
       }
@@ -1675,19 +1675,19 @@
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "let URL: string = ''./data.json'';\n let response: Response = await fetch(URL);\n let data: any = await response.json();",
+        "titleCard": "let URL: string = ''./data.json'';<br /> let response: Response = await fetch(URL);<br /> let data: any = await response.json();",
         "description": "طريقه استدعاء العناصر من api لاستخدامها في js",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "let card: string = ``;\n ele.cards.forEach((ele: any) => {\n card += `\n &lt;li class=''card'' data-card>\n &lt;img src=''${ele.image}'' class=''card-img img-desctop img-cover''>\n &lt;div class=''card-body''>\n &lt;h2 class=''title-content'' data-title>${ele.titleCard}&lt;/h2>\n &lt;p class=''toggle-text''>${ele.description}&lt;/p>\n &lt;p class=''lang-circle''>${ele.lang}&lt;/p>\n &lt;/div>\n &lt;/li> `;\n });",
+        "titleCard": "let card: string = ``;<br /> ele.cards.forEach((ele: any) => {<br /> card += `<br /> &lt;li class=''card'' data-card><br /> &lt;img src=''${ele.image}'' class=''card-img img-desctop img-cover''><br /> &lt;div class=''card-body''><br /> &lt;h2 class=''title-content'' data-title>${ele.titleCard}&lt;/h2><br /> &lt;p class=''toggle-text''>${ele.description}&lt;/p><br /> &lt;p class=''lang-circle''>${ele.lang}&lt;/p><br /> &lt;/div><br /> &lt;/li> `;<br /> });",
         "description": "مثال علي عمل for loop علي عنصر من عناصر ال array في json",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "const urlParams: URLSearchParams = new URLSearchParams(window.location.search);\n const langParam: string | null = urlParams.get(''lang'');\n const lang: string = langParam ? decodeURIComponent(langParam).toLowerCase() : '' '';\n const filter: any = data.Display.filter((display: any) => display.titlePage.toLowerCase().includes(lang));",
+        "titleCard": "const urlParams: URLSearchParams = new URLSearchParams(window.location.search);<br /> const langParam: string | null = urlParams.get(''lang'');<br /> const lang: string = langParam ? decodeURIComponent(langParam).toLowerCase() : '' '';<br /> const filter: any = data.Display.filter((display: any) => display.titlePage.toLowerCase().includes(lang));",
         "description": "الطريقه دي مهمه جدا دي بتجيب عنوان ال url بتاع الموقع او الصفحه الي انا فيها لشان يشغل العنصر الي الاسم موجود فيه ال url و ال fillter بتستخدم بدل من data في حاله اني عاوز اعمل صفحه واحده بس فيها كذا حاجه زي الصفحه الي انتا فيها دلوقتي حتا بص علي url فوق مكتوب java script و ده نفي الي بيحصر مع كل اللغات و lang دي هيا الخاجه الي الكود ده بيدور عليها اي خدمه اعم",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
@@ -2809,7 +2809,7 @@
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "fetch('data.json')\n .then(response => {\n if (!response.ok) {\n throw new Error('Network response was not ok ' + response.statusText);\n };\n return response.json();\n })\n .then(data => {\n\n })\n .catch(error => {\n console.error('Fetch error:', error);\n });",
+        "titleCard": "fetch('data.json')<br /> .then(response => {<br /> if (!response.ok) {<br /> throw new Error('Network response was not ok ' + response.statusText);<br /> };<br /> return response.json();<br /> })<br /> .then(data => {<br /><br /> })<br /> .catch(error => {<br /> console.error('Fetch error:', error);<br /> });",
         "description": " الطريقه الي بستدعي بيها ملف json و ال data دي بيكون فيها كل البيانات الي في الملف",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
@@ -2989,67 +2989,67 @@
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "let query: any = searchValue.value.toLowerCase();\n searchbar.innerHTML = '';\n if (searchValue.value < 2) return;\n const filter: any = data.filter((ele: any) => ele.title.toLowerCase().includes(query));",
+        "titleCard": "let query: any = searchValue.value.toLowerCase();<br /> searchbar.innerHTML = '';<br /> if (searchValue.value < 2) return;<br /> const filter: any = data.filter((ele: any) => ele.title.toLowerCase().includes(query));",
         "description": "تستخدم في البحث في ملف json او في array او عن حروف معينه",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "function shuffleArray(array: any[]): any[] {\n for (let i = array.length - 1; i > 0; i--) {\n const j = Math.floor(Math.random() * (i + 1));\n [array[i], array[j]] = [array[j], array[i]];\n };\n return array;\n };\n let shuffleData: any = shuffleArray(data);",
+        "titleCard": "function shuffleArray(array: any[]): any[] {<br /> for (let i = array.length - 1; i > 0; i--) {<br /> const j = Math.floor(Math.random() * (i + 1));<br /> [array[i], array[j]] = [array[j], array[i]];<br /> };<br /> return array;<br /> };<br /> let shuffleData: any = shuffleArray(data);",
         "description": "يستخدم في توزيع العناصر بشكل عشوائي في ملف json او array",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "let itemsPerPage: number = 28;\n const urlParam: URLSearchParams = new URLSearchParams(window.location.search);\n const currentPage: any = parseInt(urlParam.get('page') || '1', 10);\n const tottalItems: any = shuffleData.length;\n const startIndex: any = (currentPage - 1) * itemsPerPage;\n const endIndex: number = startIndex + itemsPerPage;\n const pageItems: any = shuffleData.slice(startIndex, endIndex);\n\n const totalPage: any = Math.ceil(tottalItems / itemsPerPage);\n let paginationHTML: string = '';\n for (let i: number = 1; i <= totalPage; i++) {\n paginationHTML += `&lt;a href='?page=${i}' class='btn-pagination ${i === currentPage ? 'active' : ''}'>${i}&lt;/a>`;\n };\n pagination_list.innerHTML = `${paginationHTML}`;",
+        "titleCard": "let itemsPerPage: number = 28;<br /> const urlParam: URLSearchParams = new URLSearchParams(window.location.search);<br /> const currentPage: any = parseInt(urlParam.get('page') || '1', 10);<br /> const tottalItems: any = shuffleData.length;<br /> const startIndex: any = (currentPage - 1) * itemsPerPage;<br /> const endIndex: number = startIndex + itemsPerPage;<br /> const pageItems: any = shuffleData.slice(startIndex, endIndex);<br /><br /> const totalPage: any = Math.ceil(tottalItems / itemsPerPage);<br /> let paginationHTML: string = '';<br /> for (let i: number = 1; i <= totalPage; i++) {<br /> paginationHTML += `&lt;a href='?page=${i}' class='btn-pagination ${i === currentPage ? 'active' : ''}'>${i}&lt;/a>`;<br /> };<br /> pagination_list.innerHTML = `${paginationHTML}`;",
         "description": "تستخدم في تقسيم العناصر في ملف json الي صفحات في صفحه واحده باستخدام url مثل ?page=1",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "let itemsPerPage: number = 60;\n const totalPage: any = Math.ceil(totalItems / itemsPerPage);\n let paginationHTML: string = '';\n\n const maxPagesToShow: number = 3; \n const halfPagesToShow: number = Math.floor(maxPagesToShow / 2);\n let startPage: number = Math.max(1, currentPage - halfPagesToShow);\n let endPage: number = Math.min(totalPage, currentPage + halfPagesToShow);\n\n if (endPage - startPage + 1 < maxPagesToShow) {\n if (startPage === 1) {\n endPage = Math.min(totalPage, startPage + maxPagesToShow - 1);\n } else if (endPage === totalPage) {\n startPage = Math.max(1, endPage - maxPagesToShow + 1);\n };\n };\n\n if (startPage > 1) {\n paginationHTML += `&lt;a href='?page=1' class='Pagination-link label-small'>1&lt;/a>`;\n if (startPage > 2) {\n paginationHTML += `&lt;button class='dots label-large' data-dots>...&lt;/button>`;\n };\n };\n\n for (let i: number = startPage; i <= endPage; i++) { paginationHTML += `&lt;a href='?page=${i}' class='Pagination-link ${i === currentPage ? 'active' : ''} label-small'>${i}&lt;/a>`; };\n\n if (endPage < totalPage) {\n if (endPage < totalPage - 1) {\n paginationHTML += `&lt;button class='dots label-large' data-dots>...&lt;/button>`;\n };\n paginationHTML += `&lt;a href='?page=${totalPage}' class='Pagination-link label-small'>${totalPage}&lt;/a>`;\n };\n Pagination_list.innerHTML = paginationHTML;",
+        "titleCard": "let itemsPerPage: number = 60;<br /> const totalPage: any = Math.ceil(totalItems / itemsPerPage);<br /> let paginationHTML: string = '';<br /><br /> const maxPagesToShow: number = 3; <br /> const halfPagesToShow: number = Math.floor(maxPagesToShow / 2);<br /> let startPage: number = Math.max(1, currentPage - halfPagesToShow);<br /> let endPage: number = Math.min(totalPage, currentPage + halfPagesToShow);<br /><br /> if (endPage - startPage + 1 < maxPagesToShow) {<br /> if (startPage === 1) {<br /> endPage = Math.min(totalPage, startPage + maxPagesToShow - 1);<br /> } else if (endPage === totalPage) {<br /> startPage = Math.max(1, endPage - maxPagesToShow + 1);<br /> };<br /> };<br /><br /> if (startPage > 1) {<br /> paginationHTML += `&lt;a href='?page=1' class='Pagination-link label-small'>1&lt;/a>`;<br /> if (startPage > 2) {<br /> paginationHTML += `&lt;button class='dots label-large' data-dots>...&lt;/button>`;<br /> };<br /> };<br /><br /> for (let i: number = startPage; i <= endPage; i++) { paginationHTML += `&lt;a href='?page=${i}' class='Pagination-link ${i === currentPage ? 'active' : ''} label-small'>${i}&lt;/a>`; };<br /><br /> if (endPage < totalPage) {<br /> if (endPage < totalPage - 1) {<br /> paginationHTML += `&lt;button class='dots label-large' data-dots>...&lt;/button>`;<br /> };<br /> paginationHTML += `&lt;a href='?page=${totalPage}' class='Pagination-link label-small'>${totalPage}&lt;/a>`;<br /> };<br /> Pagination_list.innerHTML = paginationHTML;",
         "description": "تقوم بتقسم العناصر علي صفحات بطريقه ديناميكيه",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "const itemsPerPage: number = 60;\n const totalPage: any = Math.ceil(totalItems / itemsPerPage);\n index age.innerHTML = totalPage;\n age.addEventListener('keydown', (e: any) => { if (e.key === 'Enter') window.location.href = `./recipes.html?page=${inputPage.value}` });",
+        "titleCard": "const itemsPerPage: number = 60;<br /> const totalPage: any = Math.ceil(totalItems / itemsPerPage);<br /> index age.innerHTML = totalPage;<br /> age.addEventListener('keydown', (e: any) => { if (e.key === 'Enter') window.location.href = `./recipes.html?page=${inputPage.value}` });",
         "description": "تقوم باستخدام input للتنقل بين الصفحات",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "const currentUrl = new URL(window.location.href);\n currentUrl.searchParams.set('page', input_page.value.toLowerCase());\n window.history.pushState({}, '', currentUrl.toString());\n window.location.href = currentUrl.toString();",
+        "titleCard": "const currentUrl = new URL(window.location.href);<br /> currentUrl.searchParams.set('page', input_page.value.toLowerCase());<br /> window.history.pushState({}, '', currentUrl.toString());<br /> window.location.href = currentUrl.toString();",
         "description": "تقوم بتغيير ال url بدون حذف بقيت ال url",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "function savePost(postId: any) {\n try {\n let likedPosts = JSON.parse(localStorage.getItem('likedPosts') || '[]');\n if (!likedPosts.includes(postId)) {\n likedPosts.push(postId);\n localStorage.setItem('likedPosts', JSON.stringify(likedPosts));\n console.log(postId);\n };\n } catch (error) {\n console.error('Error saving post:', error);\n };\n }; savePost('post1');\n function removePost(postId: any) {\n try {\n let likedPosts = JSON.parse(localStorage.getItem('likedPosts') || '[]');\n likedPosts = likedPosts.filter((id: any) => id !== postId);\n localStorage.setItem('likedPosts', JSON.stringify(likedPosts));\n console.log(postId);\n } catch (error) {\n console.error('Error removing post:', error);\n };\n }; removePost('post1');\n let postsAdd: any = 1;\n let postsRemove: any = 1;\n &lt;button onclick='posts${postsAdd++}'>&lt;/button>\n &lt;button onclick='posts${postsRemove++}'>&lt;/button>",
+        "titleCard": "function savePost(postId: any) {<br /> try {<br /> let likedPosts = JSON.parse(localStorage.getItem('likedPosts') || '[]');<br /> if (!likedPosts.includes(postId)) {<br /> likedPosts.push(postId);<br /> localStorage.setItem('likedPosts', JSON.stringify(likedPosts));<br /> console.log(postId);<br /> };<br /> } catch (error) {<br /> console.error('Error saving post:', error);<br /> };<br /> }; savePost('post1');<br /> function removePost(postId: any) {<br /> try {<br /> let likedPosts = JSON.parse(localStorage.getItem('likedPosts') || '[]');<br /> likedPosts = likedPosts.filter((id: any) => id !== postId);<br /> localStorage.setItem('likedPosts', JSON.stringify(likedPosts));<br /> console.log(postId);<br /> } catch (error) {<br /> console.error('Error removing post:', error);<br /> };<br /> }; removePost('post1');<br /> let postsAdd: any = 1;<br /> let postsRemove: any = 1;<br /> &lt;button onclick='posts${postsAdd++}'>&lt;/button><br /> &lt;button onclick='posts${postsRemove++}'>&lt;/button>",
         "description": "تستخدم في حفظ العناصر في المفضله",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "const buttons = document.querySelectorAll('[data-save], [data-unsaved]');\n for (let i = 0; i < buttons.length; i += 2) {\n const saveButton: any = buttons[i];\n const unsaveButton: any = buttons[i + 1];\n const postTitle = saveButton.getAttribute('onclick').match(/savePost\\('(.+)'\\)/)[1]; \n const likedPosts = JSON.parse(localStorage.getItem('likedPosts') || '[]');\n if (likedPosts.includes(postTitle)) {\n saveButton.classList.add('active');\n unsaveButton.classList.add('active');\n };\n saveButton.addEventListener('click', () => {\n savePost(postTitle);\n saveButton.classList.add('active');\n unsaveButton.classList.add('active');\n });\n unsaveButton.addEventListener('click', () => {\n removePost(postTitle);\n saveButton.classList.remove('active');\n unsaveButton.classList.remove('active');\n });\n };",
+        "titleCard": "const buttons = document.querySelectorAll('[data-save], [data-unsaved]');<br /> for (let i = 0; i < buttons.length; i += 2) {<br /> const saveButton: any = buttons[i];<br /> const unsaveButton: any = buttons[i + 1];<br /> const postTitle = saveButton.getAttribute('onclick').match(/savePost\\('(.+)'\\)/)[1]; <br /> const likedPosts = JSON.parse(localStorage.getItem('likedPosts') || '[]');<br /> if (likedPosts.includes(postTitle)) {<br /> saveButton.classList.add('active');<br /> unsaveButton.classList.add('active');<br /> };<br /> saveButton.addEventListener('click', () => {<br /> savePost(postTitle);<br /> saveButton.classList.add('active');<br /> unsaveButton.classList.add('active');<br /> });<br /> unsaveButton.addEventListener('click', () => {<br /> removePost(postTitle);<br /> saveButton.classList.remove('active');<br /> unsaveButton.classList.remove('active');<br /> });<br /> };",
         "description": "تستخدم في حفظ شكل الزرار بعد تغير الصفحه و التفرقه بين العناصر",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "let cardSave: any = JSON.parse(localStorage.likedPosts);\n const data: any = await fetchDataSavedNovel();\n data.forEach((ele: any) => {\n if (cardSave.length === 0) {\n saved_card.innerHTML = `<p class='message-info'>There are no preserved stories.</p>`;\n } else {\n if (cardSave.includes(ele.title)) {\n saved_card.innerHTML += `\n &lt;a href=[display-novel.html?noval=${ele.title}&language=${ele.language}[ class=[card[>\n &lt;figure>\n &lt;img src=[./src/assets/${ele.imageLink}[ alt=[img-name[ class=[img-card img-cover[>\n &lt;/figure>\n &lt;h1 class=[title-card[>${ele.title}</h1>\n &lt;/a>\n `;\n };\n };\n });",
+        "titleCard": "let cardSave: any = JSON.parse(localStorage.likedPosts);<br /> const data: any = await fetchDataSavedNovel();<br /> data.forEach((ele: any) => {<br /> if (cardSave.length === 0) {<br /> saved_card.innerHTML = `<p class='message-info'>There are no preserved stories.</p>`;<br /> } else {<br /> if (cardSave.includes(ele.title)) {<br /> saved_card.innerHTML += `<br /> &lt;a href=[display-novel.html?noval=${ele.title}&language=${ele.language}[ class=[card[><br /> &lt;figure><br /> &lt;img src=[./src/assets/${ele.imageLink}[ alt=[img-name[ class=[img-card img-cover[><br /> &lt;/figure><br /> &lt;h1 class=[title-card[>${ele.title}</h1><br /> &lt;/a><br /> `;<br /> };<br /> };<br /> });",
         "description": "تستخدم في اخذ العناصؤ من localStorage لعرضها في صفحه المفضله",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "next.addEventListener('click', () => { slides.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); });\n prev.addEventListener('click', () => { slides.scrollBy({ left: scrollAmount, behavior: 'smooth' }); });",
+        "titleCard": "next.addEventListener('click', () => { slides.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); });<br /> prev.addEventListener('click', () => { slides.scrollBy({ left: scrollAmount, behavior: 'smooth' }); });",
         "description": "نقوم بتحريك ال overflow الي اليمين بي next و اليسار ب prev",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       },
       {
         "image": "./src/assets/image/javaScript ( 5 ).png",
-        "titleCard": "if (localStorage.getItem(`saved-${ele.id}`) === 'true') {\n btnSave.classList.add('active');\n btnUnsved.classList.add('active');\n };\n\n btnSave.addEventListener('click', () => {\n btnSave.classList.add('active');\n btnUnsved.classList.add('active');\n localStorage.setItem(`saved-${ele.id}`, 'true');\n });\n\n btnUnsved.addEventListener('click', () => {\n btnSave.classList.remove('active');\n btnUnsved.classList.remove('active');\n localStorage.setItem(`saved-${ele.id}`, 'false');\n });\n\n const buttons = document.querySelectorAll('[data-save], [data-unsaved]');\n buttons.forEach((button) => {\n const postId = button.getAttribute('data-save') || button.getAttribute('data-unsaved');\n\n const btnSave = document.querySelector(`[data-save='${postId}']`);\n const btnUnsave = document.querySelector(`[data-unsaved='${postId}']`);\n\n if (btnSave && btnUnsave && localStorage.getItem(`saved-${postId}`) === 'true') {\n btnSave.classList.add('active');\n btnUnsave.classList.add('active');\n };\n });",
+        "titleCard": "if (localStorage.getItem(`saved-${ele.id}`) === 'true') {<br /> btnSave.classList.add('active');<br /> btnUnsved.classList.add('active');<br /> };<br /><br /> btnSave.addEventListener('click', () => {<br /> btnSave.classList.add('active');<br /> btnUnsved.classList.add('active');<br /> localStorage.setItem(`saved-${ele.id}`, 'true');<br /> });<br /><br /> btnUnsved.addEventListener('click', () => {<br /> btnSave.classList.remove('active');<br /> btnUnsved.classList.remove('active');<br /> localStorage.setItem(`saved-${ele.id}`, 'false');<br /> });<br /><br /> const buttons = document.querySelectorAll('[data-save], [data-unsaved]');<br /> buttons.forEach((button) => {<br /> const postId = button.getAttribute('data-save') || button.getAttribute('data-unsaved');<br /><br /> const btnSave = document.querySelector(`[data-save='${postId}']`);<br /> const btnUnsave = document.querySelector(`[data-unsaved='${postId}']`);<br /><br /> if (btnSave && btnUnsave && localStorage.getItem(`saved-${postId}`) === 'true') {<br /> btnSave.classList.add('active');<br /> btnUnsave.classList.add('active');<br /> };<br /> });",
         "description": "تقوم بتغيير شكل الزرار حتا بعد تحميل الصفحه لكل عنصر علي انفراد",
         "lang": "<i class='fa-solid fa-circle circle-yellow'></i> JavaScript"
       }
@@ -3323,7 +3323,7 @@
       },
       {
         "image": "./src/assets/image/type script ( 7 ).png",
-        "titleCard": "{\n ''compilerOptions'': {\n ''target'': ''ES6'',\n ''module'': ''commonjs'',\n ''lib'': [''es2015'', ''dom''],\n ''outDir'': ''./dist'',\n ''rootDir'': ''./src'',\n ''strict'': true,\n ''esModuleInterop'': true,\n ''sourceMap'': true,\n ''declaration'': true,\n ''removeComments'': true,\n ''noImplicitAny'': true\n },\n ''include'': [''src/**/*''],\n ''exclude'': [''node_modules'', ''dist'']\n }",
+        "titleCard": "{<br /> ''compilerOptions'': {<br /> ''target'': ''ES6'',<br /> ''module'': ''commonjs'',<br /> ''lib'': [''es2015'', ''dom''],<br /> ''outDir'': ''./dist'',<br /> ''rootDir'': ''./src'',<br /> ''strict'': true,<br /> ''esModuleInterop'': true,<br /> ''sourceMap'': true,<br /> ''declaration'': true,<br /> ''removeComments'': true,<br /> ''noImplicitAny'': true<br /> },<br /> ''include'': [''src/**/*''],<br /> ''exclude'': [''node_modules'', ''dist'']<br /> }",
         "description": "كل الملفات التي ستحتاجها في اعدادات type script",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> TypeScript"
       }
@@ -3523,7 +3523,7 @@
       },
       {
         "image": "./src/assets/image/vue.js ( 10 ).png",
-        "titleCard": "&lt;script>\n // @ is an alias to /src\n import welcomeMassage from '@/components/welcomeMassage.vue'\n export default {\n name: 'AboutView',\n components: {\n welcomeMassage\n }\n }\n &lt;/script>",
+        "titleCard": "&lt;script><br /> // @ is an alias to /src<br /> import welcomeMassage from '@/components/welcomeMassage.vue'<br /> export default {<br /> name: 'AboutView',<br /> components: {<br /> welcomeMassage<br /> }<br /> }<br /> &lt;/script>",
         "description": "هنا انا استدعيت ملف welcomeMassage من ال components في ملف about.vue ال name كتبت فيها اسم الملف الي اشتدعيت فيه ملف welcomeMassage",
         "lang": "<i class='fa-solid fa-circle circle-green'></i> Vue"
       },
@@ -3573,7 +3573,7 @@
     "cards": [
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "npm create vite@latest name-folder\n cd name-folder\n npm install\n npm run dev",
+        "titleCard": "npm create vite@latest name-folder<br /> cd name-folder<br /> npm install<br /> npm run dev",
         "description": "Vite: بيئة تطوير سريعة وخفيفة تدعم أنواعًا متعددة من المشاريع (React، Vue، وغيرها)، مع تركيز على السرعة في وقت التطوير.",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
@@ -3663,7 +3663,7 @@
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "function elementName() {\n return (\n\n);\n };\n ----------------- \n export default elementName",
+        "titleCard": "function elementName() {<br /> return (<br /><br />);<br /> };<br /> ----------------- <br /> export default elementName",
         "description": "هكذا يتم عمل element في react.js و export default بستخدمها علشان استدعي ال elementName في ال app.js لان js لغه مستقله لازم اعمل ليها export و استدعيها بي import",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
@@ -3675,7 +3675,7 @@
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import elementName from './elementName'; \n\n &ltelementName />",
+        "titleCard": "import elementName from './elementName'; <br /><br /> &ltelementName />",
         "description": "هنا بيتماستدعاء ال elementName في صفحه ال app.js و ال &ltelementName /> دي كذا بضيفها في الصفحه",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
@@ -3693,19 +3693,19 @@
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "src/\n assets/\n images/\n fonts/\n components/\n Navbar/\n Navbar.jsx\n Navbar.css\n Footer/\n Footer.jsx\n Footer.css\n pages/\n Home/\n Home.jsx\n Home.css\n About/\n About.jsx\n About.css\n context/\n AuthContext.js\n services/\n api.js\n styles/\n global.css\n utils/\n formatDate.js\n index.js",
+        "titleCard": "src/<br /> assets/<br /> images/<br /> fonts/<br /> components/<br /> Navbar/<br /> Navbar.jsx<br /> Navbar.css<br /> Footer/<br /> Footer.jsx<br /> Footer.css<br /> pages/<br /> Home/<br /> Home.jsx<br /> Home.css<br /> About/<br /> About.jsx<br /> About.css<br /> context/<br /> AuthContext.js<br /> services/<br /> api.js<br /> styles/<br /> global.css<br /> utils/<br /> formatDate.js<br /> index.js",
         "description": "Project structuring react.js",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "function header(props) {\n return (\n &lt;header className='header'>\n{ props.text }\n &lt;header> \n\n &lt;header text='hello world'>}",
+        "titleCard": "function header(props) {<br /> return (<br /> &lt;header className='header'><br />{ props.text }<br /> &lt;header> <br /><br /> &lt;header text='hello world'>}",
         "description": "كدا اقدر اعمل function بدون قيمه و اقدر اديله القسمه اما اجي استدعيه زي كدا &lt;header text='hello world'> و لو حطيت علامه ؟ عند props.؟text مش هيكون شرط تستخدمه",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "let noneHeader = true;\n { noneHeader && &lt;Header /> }",
+        "titleCard": "let noneHeader = true;<br /> { noneHeader && &lt;Header /> }",
         "description": "هنا دي عمليه مشهوره جدا في react بقوله لو noneHeader == true اعرض ال &lt;Header />",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
@@ -3717,7 +3717,7 @@
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import link from 'next/link';\n &lt;link to='/about>go to about&lt;/link>'",
+        "titleCard": "import link from 'next/link';<br /> &lt;link to='/about>go to about&lt;/link>'",
         "description": "هنا بستخدم ال link بدل a كوندشن في react",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
@@ -3729,31 +3729,31 @@
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "const function = () => {\n};",
+        "titleCard": "const function = () => {<br />};",
         "description": "دي ال function الي بستخدمها اعمل بيها onClick او هكذا",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { useState } from 'react'; \n const [counter, setCounter] = useState(0);",
+        "titleCard": "import { useState } from 'react'; <br /> const [counter, setCounter] = useState(0);",
         "description": "هنا ال useState بيعمل render للصفحه كلها في حاله اني بعمل زرار و عاوزازود ال counter شرطه لازم يكون في const و معمول في array و اكون مديله اسم و اما اجي استخدمه بستخدم الاسم الي هوا setCounter و طبعا بحط القيمه الي هوا محتاجها اذا كانت string او number و بيستخدم كدا setCounter(counter + 1); مثلا",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { useState } from 'react'; \n useEffect(() => {  });",
+        "titleCard": "import { useState } from 'react'; <br /> useEffect(() => {  });",
         "description": "هنا بستخدمها في حاله اني عاوز اشغل function من غير onClick او هكذا فا هنا كل اما اعمل render للصفحه هيقوم مشغلها انها لو عاوزها تشتغل مع اول render بس بعمل كدا useEffect(() => {  }, []);",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { useRef } from 'react'; \n useRef();",
+        "titleCard": "import { useRef } from 'react'; <br /> useRef();",
         "description": "بتستخدم في input في اني اجيب منها ال value زي كدا &lt;input ref={} />  و جوا ال ref اقدر احط ال function الي انا عاملها بتطلع ال value",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';\n function App() {\n return (\n &lt;Router>\n &lt;nav>\n &lt;ul>\n &lt;li>\n &lt;Link to='/'>Home&lt;/Link>\n &lt;/li>\n &lt;li>\n &lt;Link to='/about'>About&lt;/Link>\n &lt;/li>\n &lt;/ul>\n &lt;/nav>\n \n &lt;Routes>\n &lt;Route path='/' element={<Home />} />\n &lt;Route path='/about' element={<About />} />\n &lt;/Routes>\n &lt;/Router>\n );\n }\n export default App;\n\n &lt;Link to='/'>&lt;/Link>",
+        "titleCard": "import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';<br /> function App() {<br /> return (<br /> &lt;Router><br /> &lt;nav><br /> &lt;ul><br /> &lt;li><br /> &lt;Link to='/'>Home&lt;/Link><br /> &lt;/li><br /> &lt;li><br /> &lt;Link to='/about'>About&lt;/Link><br /> &lt;/li><br /> &lt;/ul><br /> &lt;/nav><br /> <br /> &lt;Routes><br /> &lt;Route path='/' element={<Home />} /><br /> &lt;Route path='/about' element={<About />} /><br /> &lt;/Routes><br /> &lt;/Router><br /> );<br /> }<br /> export default App;<br /><br /> &lt;Link to='/'>&lt;/Link>",
         "description": "دي طريقه التنقل في rourter في ملف npx create-react-app و ليس ملف npx create-next-app",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
@@ -3765,86 +3765,86 @@
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { useNavigate } from 'react-router-dom';\n\n const navigate = useNavigate();\n\n const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {\n if (e.key === 'Enter' && searchTerm.trim()) {\n navigate(/search-world?search=${searchTerm.toLowerCase().trim()});\n };\n };\n\n &lt;input\n type='text'\n onKeyDown={handleKeyDown}\n />",
+        "titleCard": "import { useNavigate } from 'react-router-dom';<br /><br /> const navigate = useNavigate();<br /><br /> const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {<br /> if (e.key === 'Enter' && searchTerm.trim()) {<br /> navigate(/search-world?search=${searchTerm.toLowerCase().trim()});<br /> };<br /> };<br /><br /> &lt;input<br /> type='text'<br /> onKeyDown={handleKeyDown}<br /> />",
         "description": "طريفه التنقل بين الصفحه في حاله وضع value في url",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "return () => {\n search_header.addEventListener('focus', openSearchBox);\n overflow.removeEventListener('click', closeSearchBoxOverflow);\n close_search_box.removeEventListener('click', closeSearchBox);\n };",
+        "titleCard": "return () => {<br /> search_header.addEventListener('focus', openSearchBox);<br /> overflow.removeEventListener('click', closeSearchBoxOverflow);<br /> close_search_box.removeEventListener('click', closeSearchBox);<br /> };",
         "description": "عندما تضيف مستمعين للأحداث أو تستخدم تأثيرات أخرى في useEffect, من المهم تنظيفها عند عدم الحاجة إليها بعد الآن. خلاف ذلك، قد تبقى الأحداث أو التأثيرات نشطة حتى بعد إزالة المكون من الشاشة، مما قد يؤدي إلى مشاكل في الأداء أو الأخطاء.",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "React.createElement(\n Link,\n {\n key: index,\n to: `/display-world?world=${country.world}&region=${country.region}`,\n className: 'card-searchbar'\n },\n React.createElement('img', {\n src: country.flagUrl,\n alt: country.countryName,\n loading: 'lazy',\n className: 'img-card img-cover'\n }),\n React.createElement(\n 'div',\n { className: 'card-body' },\n React.createElement('h1', { className: 'name label-large' }, country.countryName),\n React.createElement(\n 'p',\n { className: 'text-content label-small' },\n `${country.countryAltName} - ${country.capital} - ${country.continent}`\n )\n )\n );",
+        "titleCard": "React.createElement(<br /> Link,<br /> {<br /> key: index,<br /> to: `/display-world?world=${country.world}&region=${country.region}`,<br /> className: 'card-searchbar'<br /> },<br /> React.createElement('img', {<br /> src: country.flagUrl,<br /> alt: country.countryName,<br /> loading: 'lazy',<br /> className: 'img-card img-cover'<br /> }),<br /> React.createElement(<br /> 'div',<br /> { className: 'card-body' },<br /> React.createElement('h1', { className: 'name label-large' }, country.countryName),<br /> React.createElement(<br /> 'p',<br /> { className: 'text-content label-small' },<br /> `${country.countryAltName} - ${country.capital} - ${country.continent}`<br /> )<br /> )<br /> );",
         "description": "طريقه عمل createElement في react.js",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { useEffect, useState } from 'react';\n\n const [data, setData] = useState<DataType[]>([]);\n\n useEffect(() => {\n const fetchData = async () => {\n try {\n const response = await fetch('/data.json');\n const result = await response.json();\n setData(result);\n } catch (error) {\n console.error('Error Fetch Data', error);\n };\n };\n\n fetchData();\n }, []);",
+        "titleCard": "import { useEffect, useState } from 'react';<br /><br /> const [data, setData] = useState<DataType[]>([]);<br /><br /> useEffect(() => {<br /> const fetchData = async () => {<br /> try {<br /> const response = await fetch('/data.json');<br /> const result = await response.json();<br /> setData(result);<br /> } catch (error) {<br /> console.error('Error Fetch Data', error);<br /> };<br /> };<br /><br /> fetchData();<br /> }, []);",
         "description": "طريقه استدعاء ال api في react.js",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "&lt;div className='searchbar' data-searchbar>\n {filteredData.map((ele) => (\n &lt;Link to={`/display-world?world=${ele.name}&region=${ele.region}`} className='card-searchbar' key={ele.name}>\n &lt;<img src={ele.flag} alt={ele.name} loading='lazy' className='img-card img-cover' />\n &lt;div className='card-body'>\n &lt;h1 className='name label-large'>{ele.name}&lt;/h1>\n &lt;p className='text-content label-small'>{`${ele.nativeName} - ${ele.capital} - ${ele.region}`}&lt;/p>\n &lt;/div>\n &lt;/Link>\n ))}\n &lt;/div>",
+        "titleCard": "&lt;div className='searchbar' data-searchbar><br /> {filteredData.map((ele) => (<br /> &lt;Link to={`/display-world?world=${ele.name}&region=${ele.region}`} className='card-searchbar' key={ele.name}><br /> &lt;<img src={ele.flag} alt={ele.name} loading='lazy' className='img-card img-cover' /><br /> &lt;div className='card-body'><br /> &lt;h1 className='name label-large'>{ele.name}&lt;/h1><br /> &lt;p className='text-content label-small'>{`${ele.nativeName} - ${ele.capital} - ${ele.region}`}&lt;/p><br /> &lt;/div><br /> &lt;/Link><br /> ))}<br /> &lt;/div>",
         "description": "طريقه عرض العناصر في react",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { NavLink } from 'react-router-dom';\n &lt;NavLink\n  to='/'\n className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-house'>&lt;/i>\n &lt;/NavLink>\n &lt;NavLink\n  to='/search-world'\n  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-magnifying-glass'>&lt;/i>\n &lt;/NavLink>\n &lt;NavLink\n  to='/all-world'\n  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-border-all'>&lt;/i>\n &lt;/NavLink>\n &lt;NavLink\n  to='/saved-world'\n  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}\n >\n &lt;i className='fa-solid fa-bookmark'>&lt;/i>\n &lt;/NavLink>",
+        "titleCard": "import { NavLink } from 'react-router-dom';<br /> &lt;NavLink<br />  to='/'<br /> className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br /> ><br /> &lt;i className='fa-solid fa-house'>&lt;/i><br /> &lt;/NavLink><br /> &lt;NavLink<br />  to='/search-world'<br />  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br /> ><br /> &lt;i className='fa-solid fa-magnifying-glass'>&lt;/i><br /> &lt;/NavLink><br /> &lt;NavLink<br />  to='/all-world'<br />  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br /> ><br /> &lt;i className='fa-solid fa-border-all'>&lt;/i><br /> &lt;/NavLink><br /> &lt;NavLink<br />  to='/saved-world'<br />  className={({ isActive }) => isActive ? 'aside-link active label-large' : 'aside-link label-large'}<br /> ><br /> &lt;i className='fa-solid fa-bookmark'>&lt;/i><br /> &lt;/NavLink>",
         "description": "يقوم بوضع active اللينك الي موجدود في header علي حسب الصفحه الي موجود بيها",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "const saveRefs = useRef<HTMLElement[]>([]);\n const unsaveRefs = useRef<HTMLElement[]>([]);\n\n useEffect(() => {\n const likedWorlds = JSON.parse(localStorage.getItem('likeWorld') || '[]');\n saveRefs.current.forEach((saveButton, index) => {<br const unsaveButton = unsaveRefs.current[index];<br if (!saveButton || !unsaveButton) return;\n const likeWorld = data[index]?.name;\n if (!likeWorld) return;\n if (likedWorlds.includes(likeWorld)) {\n saveButton.classList.add('active');\n unsaveButton.classList.add('active');\n };\n saveButton.addEventListener('click', () => {\n saveWorld(likeWorld);\n saveButton.classList.add('active');\n unsaveButton.classList.add('active');\n });\n unsaveButton.addEventListener('click', () => {\n unsavedWorld(likeWorld);\n saveButton.classList.remove('active');\n unsaveButton.classList.remove('active');\n });\n });\n\n return () => {\n saveRefs.current.forEach((saveButton, index) => {\n const unsaveButton = unsaveRefs.current[index];\n if (!saveButton || !unsaveButton) return;\n saveButton.removeEventListener('click', () => {});\n unsaveButton.removeEventListener('click', () => {});\n });\n };\n }, [data]);\n\n &lt;button\n ref={el => saveRefs.current[index] = el!}\n className='btn-saved save label-small' \n data-save\n >\n &lt;i className='fa-regular fa-bookmark'>&lt;/i>\n &lt;/button>\n\n &lt;button\n ref={el => unsaveRefs.current[index] = el!}\n className='btn-saved unsaved label-small' \n data-unsaved\n >\n &lt;i className='fa-solid fa-bookmark'>&lt;/i>\n &lt;/button>\n",
+        "titleCard": "const saveRefs = useRef<HTMLElement[]>([]);<br /> const unsaveRefs = useRef<HTMLElement[]>([]);<br /><br /> useEffect(() => {<br /> const likedWorlds = JSON.parse(localStorage.getItem('likeWorld') || '[]');<br /> saveRefs.current.forEach((saveButton, index) => {<br const unsaveButton = unsaveRefs.current[index];<br if (!saveButton || !unsaveButton) return;<br /> const likeWorld = data[index]?.name;<br /> if (!likeWorld) return;<br /> if (likedWorlds.includes(likeWorld)) {<br /> saveButton.classList.add('active');<br /> unsaveButton.classList.add('active');<br /> };<br /> saveButton.addEventListener('click', () => {<br /> saveWorld(likeWorld);<br /> saveButton.classList.add('active');<br /> unsaveButton.classList.add('active');<br /> });<br /> unsaveButton.addEventListener('click', () => {<br /> unsavedWorld(likeWorld);<br /> saveButton.classList.remove('active');<br /> unsaveButton.classList.remove('active');<br /> });<br /> });<br /><br /> return () => {<br /> saveRefs.current.forEach((saveButton, index) => {<br /> const unsaveButton = unsaveRefs.current[index];<br /> if (!saveButton || !unsaveButton) return;<br /> saveButton.removeEventListener('click', () => {});<br /> unsaveButton.removeEventListener('click', () => {});<br /> });<br /> };<br /> }, [data]);<br /><br /> &lt;button<br /> ref={el => saveRefs.current[index] = el!}<br /> className='btn-saved save label-small' <br /> data-save<br /> ><br /> &lt;i className='fa-regular fa-bookmark'>&lt;/i><br /> &lt;/button><br /><br /> &lt;button<br /> ref={el => unsaveRefs.current[index] = el!}<br /> className='btn-saved unsaved label-small' <br /> data-unsaved<br /> ><br /> &lt;i className='fa-solid fa-bookmark'>&lt;/i><br /> &lt;/button><br />",
         "description": "طريقه حفظ العناصر في المفضله في react.js",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "function CardSkeleton() { \n return &lt;div className='card-skeleton'>&lt;/div>; \n };\n\n const [loading, setLoading] = useState(true);\n useEffect(() => {\n const fetchData = async () => {\n try {\n const response = await fetch('/data.json');\n const data = await response.json();\n setData(shuffleArray(data.slice(30, 60)));\n setLoading(false);\n } catch (error) {\n console.error('Error Fetch Data In Home List', error);\n }\n setLoading(false);\n };\n\n fetchData();\n // هنا توضع ال setLoading لكي يحذف ال Skeleton بعد تحميل العناصر\n }, []);\n\n {loading ? (\n Array(4).fill(0).map((_, index) => <CardSkeleton key={index} />)\n ) : (\n data.map((ele, index) => (\n // هنا توضع العناصر\n ))\n )}",
+        "titleCard": "function CardSkeleton() { <br /> return &lt;div className='card-skeleton'>&lt;/div>; <br /> };<br /><br /> const [loading, setLoading] = useState(true);<br /> useEffect(() => {<br /> const fetchData = async () => {<br /> try {<br /> const response = await fetch('/data.json');<br /> const data = await response.json();<br /> setData(shuffleArray(data.slice(30, 60)));<br /> setLoading(false);<br /> } catch (error) {<br /> console.error('Error Fetch Data In Home List', error);<br /> }<br /> setLoading(false);<br /> };<br /><br /> fetchData();<br /> // هنا توضع ال setLoading لكي يحذف ال Skeleton بعد تحميل العناصر<br /> }, []);<br /><br /> {loading ? (<br /> Array(4).fill(0).map((_, index) => <CardSkeleton key={index} />)<br /> ) : (<br /> data.map((ele, index) => (<br /> // هنا توضع العناصر<br /> ))<br /> )}",
         "description": "طريقه وضع skeleton في react.js قبل تحميل العناصر",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "useEffect(() => {\n document.title = 'العنوان الجديد';\n }, []);",
+        "titleCard": "useEffect(() => {<br /> document.title = 'العنوان الجديد';<br /> }, []);",
         "description": "طريقه تغيير عنوان ال title في react.js",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "&lt;p>\n &lt;span>timezones:&lt;/span> {ele.timezones.map((timezone, index) => (\n &lt;span key={index}>{timezone}{index < ele.timezones.length - 1 ? ', ' : ''}&lt;/span>\n ))}\n &lt;/p>",
+        "titleCard": "&lt;p><br /> &lt;span>timezones:&lt;/span> {ele.timezones.map((timezone, index) => (<br /> &lt;span key={index}>{timezone}{index < ele.timezones.length - 1 ? ', ' : ''}&lt;/span><br /> ))}<br /> &lt;/p>",
         "description": "طريقه احضار عنصر array في react.js",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { useParams } from 'react-router-dom';\n\n const { world } = useParams();\n\n useEffect(() => {\n const fetchData = async () => {\n try {\n const response = await fetch('/data.json');\n const data = await response.json();\n } catch (error) {\n console.error('Error Fetch Data In Display World', error);\n };\n };\n\n fetchData();\n }, [world]);",
+        "titleCard": "import { useParams } from 'react-router-dom';<br /><br /> const { world } = useParams();<br /><br /> useEffect(() => {<br /> const fetchData = async () => {<br /> try {<br /> const response = await fetch('/data.json');<br /> const data = await response.json();<br /> } catch (error) {<br /> console.error('Error Fetch Data In Display World', error);<br /> };<br /> };<br /><br /> fetchData();<br /> }, [world]);",
         "description": "ال useParams تستخدم في صفحات العرض اذا تغير محتوي ال params يتغير معه محتوي الصفحه",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react (9).png",
         "titleCard": "كيفية نشر مشروع React باستخدام Vite على GitHub Pages",
-        "description": "لرفع مشروع React.js مبني باستخدام Vite على GitHub وعمل استضافة للمشروع على GitHub Pages، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع React باستخدام Vite**\n   أولاً، إذا لم تكن قد أنشأت المشروع بالفعل، يمكنك إنشاء مشروع React باستخدام Vite عبر:\n\n```bash\nnpm create vite@latest my-vite-app\ncd my-vite-app\nnpm install\nnpm run dev\n```\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   إذا لم يكن لديك مستودع على GitHub، يمكنك إنشاء واحد كما يلي:\n\n1. اذهب إلى [GitHub](https://github.com).\n2. قم بإنشاء مستودع جديد (**New Repository**).\n3. انسخ رابط المستودع.\n\n### 3. **إضافة المشروع إلى GitHub**\nفي مشروعك على جهازك المحلي، قم بالخطوات التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin\n main\n```\n\nاستبدل `<URL-TO-YOUR-REPO>` برابط المستودع الذي نسخته من GitHub.\n\n### 4. **تعديل إعدادات Vite لتوافق GitHub Pages**\n   Vite يحتاج إلى تعديل بسيط في إعداداته ليعمل بشكل صحيح على GitHub Pages، لأن المشاريع المستضافة على GitHub Pages عادةً ما تكون في مسار فرعي (subdirectory) مثل `https://username.github.io/repo-name/`.\n\nلذلك عليك تعديل إعداد `base` في `vite.config.js` كما يلي:\n\n```javascript\nimport { defineConfig } from 'vite'\nimport react from '@vitejs/plugin-react'\n\n// https://vitejs.dev/config/\nexport default defineConfig({\n  base: '/repo-name/', // استبدل 'repo-name' باسم المستودع الخاص بك\n  plugins: [react()],\n})\n```\n\n### 5. **بناء المشروع**\n   بعد التعديل، قم ببناء المشروع ليكون جاهزًا للرفع على GitHub Pages:\n\n```bash\nnpm run build\n```\n\nسيتم إنشاء مجلد باسم `dist` يحتوي على ملفات المشروع الجاهزة للنشر.\n\n### 6. **رفع المشروع إلى فرع `gh-pages`**\n   لاستخدام **GitHub Pages**، عليك رفع الملفات المبنية إلى فرع `gh-pages` على GitHub. يمكنك استخدام أداة `gh-pages` لتسهيل العملية.\n\n1. قم بتثبيت الحزمة `gh-pages`:\n\n```bash\nnpm install gh-pages --save-dev\n```\n\n2. في ملف `package.json`، أضف السكريبتات التالية:\n\n```json\n{\n  \"scripts\": {\n    \"predeploy\": \"npm run build\",\n    \"deploy\": \"gh-pages -d dist\"\n  }\n}\n```\n\n- `predeploy`: يبني المشروع تلقائيًا قبل النشر.\n- `deploy`: ينشر محتويات مجلد `dist` إلى فرع `gh-pages`.\n\n### 7. **نشر المشروع**\n   الآن قم بتشغيل الأمر التالي لنشر مشروعك على GitHub Pages:\n\n```bash\nnpm run deploy\n```\n\nسيقوم هذا الأمر ببناء المشروع ثم نشره إلى فرع `gh-pages` في GitHub.\n\n### 8. **تفعيل GitHub Pages**\n   1. اذهب إلى صفحة المستودع الخاص بك على GitHub.\n   2. انتقل إلى الإعدادات (**Settings**).\n   3. في القائمة الجانبية، اختر **Pages**.\n   4. ضمن قسم **Source**، اختر الفرع `gh-pages` كمصدر، ثم اضغط على **Save**.\n\nبعد بضع دقائق، سيكون مشروعك متاحًا على الرابط `https://username.github.io/repo-name/`.\n\n### 9. **التأكد من نجاح النشر**\n   انتقل إلى الرابط المذكور وتأكد من أن موقعك يعمل بشكل صحيح.\n\n### **ملخص الخطوات**:\n1. قم بإنشاء مشروع React باستخدام Vite.\n2. ارفع المشروع إلى GitHub.\n3. عدل إعدادات `vite.config.js` لتعيين `base` بشكل صحيح.\n4. قم ببناء المشروع باستخدام `npm run build`.\n5. استخدم أداة `gh-pages` لنشر المشروع إلى فرع `gh-pages`.\n6. فعل **GitHub Pages** من إعدادات المستودع.\n7. تأكد من أن المشروع يعمل على GitHub Pages.",
+        "description": "لرفع مشروع React.js مبني باستخدام Vite على GitHub وعمل استضافة للمشروع على GitHub Pages، يمكنك اتباع الخطوات التالية:<br /><br />### 1. **إنشاء مشروع React باستخدام Vite**<br />   أولاً، إذا لم تكن قد أنشأت المشروع بالفعل، يمكنك إنشاء مشروع React باستخدام Vite عبر:<br /><br />```bash<br />npm create vite@latest my-vite-app<br />cd my-vite-app<br />npm install<br />npm run dev<br />```<br /><br />### 2. **تهيئة المشروع لرفع على GitHub**<br />   إذا لم يكن لديك مستودع على GitHub، يمكنك إنشاء واحد كما يلي:<br /><br />1. اذهب إلى [GitHub](https://github.com).<br />2. قم بإنشاء مستودع جديد (**New Repository**).<br />3. انسخ رابط المستودع.<br /><br />### 3. **إضافة المشروع إلى GitHub**<br />في مشروعك على جهازك المحلي، قم بالخطوات التالية:<br /><br />```bash<br />git init<br />git add .<br />git commit -m \"Initial commit\"<br />git branch -M main<br />git remote add origin <URL-TO-YOUR-REPO><br />git push -u origin<br /> main<br />```<br /><br />استبدل `<URL-TO-YOUR-REPO>` برابط المستودع الذي نسخته من GitHub.<br /><br />### 4. **تعديل إعدادات Vite لتوافق GitHub Pages**<br />   Vite يحتاج إلى تعديل بسيط في إعداداته ليعمل بشكل صحيح على GitHub Pages، لأن المشاريع المستضافة على GitHub Pages عادةً ما تكون في مسار فرعي (subdirectory) مثل `https://username.github.io/repo-name/`.<br /><br />لذلك عليك تعديل إعداد `base` في `vite.config.js` كما يلي:<br /><br />```javascript<br />import { defineConfig } from 'vite'<br />import react from '@vitejs/plugin-react'<br /><br />// https://vitejs.dev/config/<br />export default defineConfig({<br />  base: '/repo-name/', // استبدل 'repo-name' باسم المستودع الخاص بك<br />  plugins: [react()],<br />})<br />```<br /><br />### 5. **بناء المشروع**<br />   بعد التعديل، قم ببناء المشروع ليكون جاهزًا للرفع على GitHub Pages:<br /><br />```bash<br />npm run build<br />```<br /><br />سيتم إنشاء مجلد باسم `dist` يحتوي على ملفات المشروع الجاهزة للنشر.<br /><br />### 6. **رفع المشروع إلى فرع `gh-pages`**<br />   لاستخدام **GitHub Pages**، عليك رفع الملفات المبنية إلى فرع `gh-pages` على GitHub. يمكنك استخدام أداة `gh-pages` لتسهيل العملية.<br /><br />1. قم بتثبيت الحزمة `gh-pages`:<br /><br />```bash<br />npm install gh-pages --save-dev<br />```<br /><br />2. في ملف `package.json`، أضف السكريبتات التالية:<br /><br />```json<br />{<br />  \"scripts\": {<br />    \"predeploy\": \"npm run build\",<br />    \"deploy\": \"gh-pages -d dist\"<br />  }<br />}<br />```<br /><br />- `predeploy`: يبني المشروع تلقائيًا قبل النشر.<br />- `deploy`: ينشر محتويات مجلد `dist` إلى فرع `gh-pages`.<br /><br />### 7. **نشر المشروع**<br />   الآن قم بتشغيل الأمر التالي لنشر مشروعك على GitHub Pages:<br /><br />```bash<br />npm run deploy<br />```<br /><br />سيقوم هذا الأمر ببناء المشروع ثم نشره إلى فرع `gh-pages` في GitHub.<br /><br />### 8. **تفعيل GitHub Pages**<br />   1. اذهب إلى صفحة المستودع الخاص بك على GitHub.<br />   2. انتقل إلى الإعدادات (**Settings**).<br />   3. في القائمة الجانبية، اختر **Pages**.<br />   4. ضمن قسم **Source**، اختر الفرع `gh-pages` كمصدر، ثم اضغط على **Save**.<br /><br />بعد بضع دقائق، سيكون مشروعك متاحًا على الرابط `https://username.github.io/repo-name/`.<br /><br />### 9. **التأكد من نجاح النشر**<br />   انتقل إلى الرابط المذكور وتأكد من أن موقعك يعمل بشكل صحيح.<br /><br />### **ملخص الخطوات**:<br />1. قم بإنشاء مشروع React باستخدام Vite.<br />2. ارفع المشروع إلى GitHub.<br />3. عدل إعدادات `vite.config.js` لتعيين `base` بشكل صحيح.<br />4. قم ببناء المشروع باستخدام `npm run build`.<br />5. استخدم أداة `gh-pages` لنشر المشروع إلى فرع `gh-pages`.<br />6. فعل **GitHub Pages** من إعدادات المستودع.<br />7. تأكد من أن المشروع يعمل على GitHub Pages.",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react (9).png",
         "titleCard": "إنشاء مشروع React باستخدام Create React App",
-        "description": "لإنشاء مشروع React باستخدام `npx create-react-app`، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع React**\n   قم بتشغيل الأمر التالي في سطر الأوامر:\n\n```bash\nnpx create-react-app my-app\ncd my-app\nnpm start\n```\n\n- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-app` ويقوم بتثبيت جميع الحزم الضرورية.\n- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm start`.\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:\n\n1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.\n2. انسخ رابط المستودع.\n3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin main\n```\n\n### 3. **تفعيل GitHub Pages**\n   بعد رفع المشروع إلى GitHub، يمكنك تفعيل **GitHub Pages** لعرض المشروع على الإنترنت من إعدادات المستودع كما يلي:\n\n1. اذهب إلى إعدادات المستودع (**Settings**).\n2. في القائمة الجانبية، اختر **Pages**.\n3. اختر الفرع `main` كمصدر للموقع.\n4. اضغط على **Save**.\n\n### **ملخص الخطوات**:\n1. إنشاء مشروع باستخدام `npx create-react-app`.\n2. رفع المشروع إلى GitHub.\n3. تفعيل GitHub Pages من إعدادات المستودع.",
+        "description": "لإنشاء مشروع React باستخدام `npx create-react-app`، يمكنك اتباع الخطوات التالية:<br /><br />### 1. **إنشاء مشروع React**<br />   قم بتشغيل الأمر التالي في سطر الأوامر:<br /><br />```bash<br />npx create-react-app my-app<br />cd my-app<br />npm start<br />```<br /><br />- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-app` ويقوم بتثبيت جميع الحزم الضرورية.<br />- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm start`.<br /><br />### 2. **تهيئة المشروع لرفع على GitHub**<br />   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:<br /><br />1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.<br />2. انسخ رابط المستودع.<br />3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:<br /><br />```bash<br />git init<br />git add .<br />git commit -m \"Initial commit\"<br />git branch -M main<br />git remote add origin <URL-TO-YOUR-REPO><br />git push -u origin main<br />```<br /><br />### 3. **تفعيل GitHub Pages**<br />   بعد رفع المشروع إلى GitHub، يمكنك تفعيل **GitHub Pages** لعرض المشروع على الإنترنت من إعدادات المستودع كما يلي:<br /><br />1. اذهب إلى إعدادات المستودع (**Settings**).<br />2. في القائمة الجانبية، اختر **Pages**.<br />3. اختر الفرع `main` كمصدر للموقع.<br />4. اضغط على **Save**.<br /><br />### **ملخص الخطوات**:<br />1. إنشاء مشروع باستخدام `npx create-react-app`.<br />2. رفع المشروع إلى GitHub.<br />3. تفعيل GitHub Pages من إعدادات المستودع.",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> React"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
         "titleCard": "إنشاء مشروع Next.js باستخدام Create Next App",
-        "description": "لإنشاء مشروع Next.js باستخدام `npx create-next-app`، يمكنك اتباع الخطوات التالية:\n\n### 1. **إنشاء مشروع Next.js**\n   قم بتشغيل الأمر التالي في سطر الأوامر:\n\n```bash\nnpx create-next-app@latest my-next-app\ncd my-next-app\nnpm run dev\n```\n\n- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-next-app` ويقوم بتثبيت جميع الحزم الضرورية.\n- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm run dev`.\n\n### 2. **تهيئة المشروع لرفع على GitHub**\n   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:\n\n1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.\n2. انسخ رابط المستودع.\n3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:\n\n```bash\ngit init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin <URL-TO-YOUR-REPO>\ngit push -u origin main\n```\n\n### 3. **تفعيل GitHub Pages لمشروع Next.js**\n   استخدام **GitHub Pages** مع Next.js يتطلب إعدادات إضافية مثل تصدير المشروع كملفات HTML ثابتة باستخدام الأمر `next export`. بعد تصدير المشروع، يمكنك رفع الملفات المبنية إلى فرع `gh-pages` أو استخدام مجلد `docs`.\n\n### **ملخص الخطوات**:\n1. إنشاء مشروع باستخدام `npx create-next-app`.\n2. تصدير المشروع باستخدام `next export`.\n3. رفع المشروع إلى GitHub.\n4. تفعيل GitHub Pages باستخدام الملفات الثابتة المصدرة.",
+        "description": "لإنشاء مشروع Next.js باستخدام `npx create-next-app`، يمكنك اتباع الخطوات التالية:<br /><br />### 1. **إنشاء مشروع Next.js**<br />   قم بتشغيل الأمر التالي في سطر الأوامر:<br /><br />```bash<br />npx create-next-app@latest my-next-app<br />cd my-next-app<br />npm run dev<br />```<br /><br />- سيقوم هذا الأمر بإنشاء مشروع جديد باسم `my-next-app` ويقوم بتثبيت جميع الحزم الضرورية.<br />- بعد التثبيت، قم بالدخول إلى المجلد وتشغيل المشروع محليًا باستخدام `npm run dev`.<br /><br />### 2. **تهيئة المشروع لرفع على GitHub**<br />   يمكنك رفع المشروع إلى GitHub باتباع الخطوات التالية:<br /><br />1. اذهب إلى [GitHub](https://github.com) وقم بإنشاء مستودع جديد.<br />2. انسخ رابط المستودع.<br />3. في مشروعك المحلي، قم بتنفيذ الأوامر التالية:<br /><br />```bash<br />git init<br />git add .<br />git commit -m \"Initial commit\"<br />git branch -M main<br />git remote add origin <URL-TO-YOUR-REPO><br />git push -u origin main<br />```<br /><br />### 3. **تفعيل GitHub Pages لمشروع Next.js**<br />   استخدام **GitHub Pages** مع Next.js يتطلب إعدادات إضافية مثل تصدير المشروع كملفات HTML ثابتة باستخدام الأمر `next export`. بعد تصدير المشروع، يمكنك رفع الملفات المبنية إلى فرع `gh-pages` أو استخدام مجلد `docs`.<br /><br />### **ملخص الخطوات**:<br />1. إنشاء مشروع باستخدام `npx create-next-app`.<br />2. تصدير المشروع باستخدام `next export`.<br />3. رفع المشروع إلى GitHub.<br />4. تفعيل GitHub Pages باستخدام الملفات الثابتة المصدرة.",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> Next.js"
       },
       {
@@ -3855,13 +3855,13 @@
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "<Route path='/docs' element={\n<>\n<Header />\n<Docs />\n<Footer />\n</>\n} />",
+        "titleCard": "<Route path='/docs' element={<br /><><br /><Header /><br /><Docs /><br /><Footer /><br /></><br />} />",
         "description": "دي طريقه بقوله اظهر ال header و ال footer في الصفحه دي",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> Next.js"
       },
       {
         "image": "./src/assets/image/react ( 9 ).png",
-        "titleCard": "import { useLocation } from 'react-router-dom';\nconst location = useLocation();",
+        "titleCard": "import { useLocation } from 'react-router-dom';<br />const location = useLocation();",
         "description": "تستخدم في تغيير محتوي الصفحه عند تغير ال url",
         "lang": "<i class='fa-solid fa-circle circle-light-blue'></i> Next.js"
       }
